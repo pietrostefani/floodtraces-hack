@@ -9,14 +9,16 @@ book:
   chapters:
     - index.qmd
     - overview.qmd
-    - workshop.qmd
-    - part: probstatement.qmd
+    - part: workshop.qmd
       chapters:
+        - researchareas.qmd
         - casestudy.qmd
         - datasets.qmd
+    - part: probstatement.qmd
+      chapters:
         - output.qmd
-        - researchareas.qmd
-    - part: dataaccess.qmd
+        - dataaccess.qmd
+        - resources.qmd
     - references.qmd
 
   page-footer:

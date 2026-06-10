@@ -30,10 +30,10 @@ $font-size-root:  16px;
 $line-height-base: 1.75;
 
 // Sidebar
-$sidebar-bg:             $green-deep;
-$sidebar-fg:             #d4e8da;
-$sidebar-hl:             #a8d4b8;
-$sidebar-hl-color:       #ffffff;
+$sidebar-bg:             #ffffff;
+$sidebar-fg:             #4a5a50;
+$sidebar-hl:             $green-mid;
+$sidebar-hl-color:       $green-deep;
 
 // Navbar (top bar)
 $navbar-bg:              $green-deep;
@@ -67,26 +67,26 @@ body {
 // ── Sidebar ────────────────────────────────────────────────────
 
 #quarto-sidebar {
-  background-color: $green-deep;
-  border-right: 1px solid darken($green-deep, 4%);
+  background-color: #ffffff;
+  border-right: 1px solid #e2ebe5;
 
   .sidebar-title a,
   .sidebar-title {
-    color: #ffffff;
+    color: $green-deep;
     font-family: $headings-font-family;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     letter-spacing: 0.01em;
   }
 
   .sidebar-item-text {
-    color: #c2dac9;
-    font-size: 0.875rem;
+    color: #5a6b61;
+    font-size: 0.85rem;
     letter-spacing: 0.01em;
   }
 
   .sidebar-item.active > .sidebar-item-container .sidebar-item-text,
   .sidebar-item.active .sidebar-item-text {
-    color: #ffffff;
+    color: $green-deep;
     font-weight: 600;
   }
 
@@ -94,6 +94,8 @@ body {
   .sidebar-item.active > .sidebar-item-container {
     border-left: 3px solid $green-bright;
     padding-left: 0.6rem;
+    background-color: $green-surface;
+    border-radius: 0 4px 4px 0;
   }
 
   .chapter-number {
@@ -101,7 +103,7 @@ body {
     font-family: $font-family-monospace;
     font-size: 0.75rem;
     margin-right: 0.4em;
-    opacity: 0.85;
+    opacity: 0.7;
   }
 }
 
