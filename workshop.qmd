@@ -6,6 +6,17 @@ The event runs across three days, combining a senior policy workshop on Day 1 wi
 
 **Day 1 — Policy Workshop** is a high-level dialogue with representatives from FCDO, IOM Displacement Tracking Matrix, NGOs, and partner organisations. The day centres on presenting the Colombia and Indonesia Digital Traces Situation Reports, gathering structured feedback on their usefulness and adoption potential, and surfacing the wider data landscape for flood response. *Attendance on Day 1 is required for all hackathon participants — the morning and early afternoon provide essential framing, methodological context, and direct exposure to the policy stakeholders whose feedback shapes hackathon outputs.*
 
+::: {.callout-note}
+**Joining online**  
+Day 1 is open to remote participants via Microsoft Teams.
+
+**[Click here to join](https://teams.microsoft.com/meet/336479870017958?p=Vr4zma6sQGjxxzUrlm)**  
+**Meeting ID:** 336 479 870 017 958  
+**Passcode:** Eh3B4Xb3
+
+For any technical difficulties, contact **Dr Martina Pardy** at [m.l.pardy@liverpool.ac.uk](mailto:m.l.pardy@liverpool.ac.uk).
+:::
+
 **Days 2–3 — Hackathon** teams work on one of three problem statements using real digital trace mobility, IOM DTM data and contextual data. Selected policy attendees return on Day 3 afternoon for final presentations.
 
 ------------------------------------------------------------------------
