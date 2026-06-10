@@ -4,9 +4,24 @@ Over two days, your team will tackle one of three challenges using real digital 
 
 Each team selects one problem statement. Your chosen area must be confirmed at the pre-hackathon meeting during the week of **15 June 2026**.
 
-All teams are required to use **at least one of the provided datasets** (GPS mobility data, Meta Data for Good, or IOM DTM). Given the limited timeframe, the use of additional datasets is generally discouraged — but if you have a specific source in mind, consult the organisers in advance.
+All teams are required to use **at least one of the provided datasets**. The Pakistan case study and full data documentation are described in the following sections — read these before confirming your problem statement. 
 
----
+::: {.callout-note}
+Given the limited timeframe, the use of additional datasets beyond those provided is generally discouraged. If you have a specific source in mind, consult the organisers in advance.
+:::
+
+
+------------------------------------------------------------------------
+
+## Participation {.unnumbered}
+
+Participation is structured around pre-assigned mixed teams. Each team includes at least **one domain expert** (humanitarian or policy), **three technical participants** (data or code), and **one academic contributor**. Effective mixing is deliberate — the strongest hackathon outputs combine operational knowledge with analytical capability.
+
+::: callout-note
+**Pre-hackathon meetings**\
+Two online pre-hackathon meetings will take place during the week of **15 June 2026**. These sessions cover team introductions, problem statement confirmation, and a guided walkthrough of the data packs.
+:::
+------------------------------------------------------------------------
 
 ## 1. Replicate and Refine {.unnumbered}
 
@@ -14,11 +29,11 @@ Take the **Colombia and Indonesia Digital Traces SitReps** presented on Day 1 an
 
 The existing reports provide a strong analytical foundation — your team's task is to bring fresh thinking on visualisations, validation approaches, or how the displacement story is communicated to a policy audience.
 
-- How do the GPS displacement signals compare with IOM DTM figures for Pakistan?
-- Where does the pipeline perform well, and where does it struggle relative to the Colombia/Indonesia benchmarks?
-- What refinements to the methodology improve the SitRep's usefulness for operational decision-making?
+-   How do the GPS displacement signals compare with IOM DTM figures for Pakistan?
+-   Where does the pipeline perform well, and where does it struggle relative to the Colombia/Indonesia benchmarks?
+-   What refinements to the methodology improve the SitRep's usefulness for operational decision-making?
 
----
+------------------------------------------------------------------------
 
 ## 2. Make It Interactive {.unnumbered}
 
@@ -26,11 +41,11 @@ Turn a static Situation Report into something humanitarian responders can **acti
 
 Build an interactive map or analytical platform where users can drill into displacement data dynamically — filtering by geography, time window, or severity. The best builds will be linked from future SitReps via QR code, meaning your work could end up in the hands of decision-makers during the next flood.
 
-- What does an interactive SitRep look like in practice for a field responder with 10 minutes?
-- How do you communicate uncertainty and data limitations in an interactive format without overwhelming the user?
-- What interaction patterns best serve a non-technical policy audience?
+-   What does an interactive SitRep look like in practice for a field responder with 10 minutes?
+-   How do you communicate uncertainty and data limitations in an interactive format without overwhelming the user?
+-   What interaction patterns best serve a non-technical policy audience?
 
----
+------------------------------------------------------------------------
 
 ## 3. See It Coming {.unnumbered}
 
@@ -38,13 +53,13 @@ Move from **response to anticipation**. Use historical Pakistan flood data to de
 
 This is the frontier of humanitarian data work — there is no settled answer, and your team has genuine latitude to explore.
 
-- Can GPS mobility signals in the days before a flood peak serve as early warning indicators?
-- What vulnerability factors (infrastructure, demographics, flood history) best predict where displacement will be most severe?
-- How can anticipatory outputs be structured so that they are actionable within an agency's existing operational workflow?
+-   Can GPS mobility signals in the days before a flood peak serve as early warning indicators?
+-   What vulnerability factors (infrastructure, demographics, flood history) best predict where displacement will be most severe?
+-   How can anticipatory outputs be structured so that they are actionable within an agency's existing operational workflow?
 
----
+------------------------------------------------------------------------
 
-::: {.callout-note}
-**Outputs and recognition**  
+::: callout-note
+**Outputs and recognition**\
 All participant contributions incorporated into future published works will be acknowledged. Selected policy stakeholders will return on Day 3 afternoon for final team presentations. Judges include IOM operational staff, FCDO policy advisors, and academic reviewers.
 :::

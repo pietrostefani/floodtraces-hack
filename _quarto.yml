@@ -12,12 +12,11 @@ book:
     - part: workshop.qmd
       chapters:
         - researchareas.qmd
-        - casestudy.qmd
-        - datasets.qmd
     - part: probstatement.qmd
       chapters:
+        - casestudy.qmd
+        - datasets.qmd
         - output.qmd
-        - dataaccess.qmd
         - resources.qmd
     - references.qmd
 

@@ -1,49 +1,34 @@
-# Output {.unnumbered}
+# Outputs {.unnumbered}
 
-## Pre-Hackathon Meetings
+## Pre-Hackathon Meeting {.unnumbered}
 
-Two pre-Hackathon meeting will take place online.
+One online pre-hackathon meeting will take place on **Thursday 18 or Friday 19 June 2026**. The exact date will be confirmed with participants in advance.
 
-1.  **Team Formation & Problem Selection**: Participants meet their teammates and choose a problem statement to work on.
+This session covers:
 
-2.  **Pre-Hackathon Demo (Snowflake)**
+- Meeting your team and agreeing on roles
+- Confirming your chosen problem statement
+- Walkthrough of the data packs and access via Zotera
+- Q&A with the organising team
 
-    📅 **Friday, 16 May**
+## Expected Outputs {.unnumbered}
 
-    🕚 **11:00 AM (BST)**
+Each team produces one of the following, depending on their chosen problem statement:
 
-This session will cover:
+**1. Pakistan Digital Traces SitRep** *(Replicate and Refine)*  
+A new Situation Report for the 2022 Pakistan floods, following the same structure as the Colombia and Indonesia SitReps presented on Day 1. Teams should include analytical notes on methodology, data limitations, and validation against IOM DTM figures. The goal is a report that could sit alongside the existing SitReps as a third country example.
 
--   Gain access to the datasets
+**2. Interactive SitRep** *(Make It Interactive)*  
+A storymap or interactive map that brings a Situation Report to life for a non-technical policy audience. Users should be able to explore displacement data dynamically — filtering by geography, time, or severity. The best outputs will be linked from future SitReps via QR code.
 
--   Learn how to connect to Snowflake accounts and locate datasets and demo code.
+**3. Anticipatory Action Analysis** *(See It Coming)*  
+A piece of analysis or prototype tool exploring early warning signals, vulnerability mapping, or anticipatory indicators using historical Pakistan flood data. Outputs may take the form of a short analytical report, a notebook, or a dashboard — whatever best communicates the findings to an operational audience.
 
--   Introduction to Snowflake’s geospatial analysis capabilities
+---
 
--   Using Snowflake Notebooks (similar to working in Jupyter) to build demographic, time-series, and geospatial infographics
+All outputs should be accompanied by a **short presentation (5 slides maximum)** for the Day 3 final session, and teams are strongly encouraged to share any code via GitHub repository.
 
--   Example of templates for AI-generated summaries and AI-driven insights between demographic and geospatial data
-
--   For those preferring to work locally, a Jupyter Notebook template for connecting to Snowflake will also be shared.
-
-## What Groups should keep in mind
-
-Participants will focus on triangulating key indicators of displacement and presenting their findings in clear, accessible formats that can inform both policymakers and humanitarian responders. The goal is to develop a compelling **“Message + Infographic (Map or Other)”**—a concise narrative supported by data visualisation —that can serve as a proof of concept for improving disaster response in future scenarios.
-
-::: {.callout-tip title="Infographic and Code Guidance"}
-1.  **Infographic**: Most effective visualisations are usually a combination of images: maps + plots + icons, etc.
-
-2.  **Code**: Teams are *strongly encouraged* to submit any code developed during the Hackathon. This may include the creation of a GitHub repository to share scripts, data pipelines, or analysis workflows. Open and well-documented code will help ensure the solutions are reusable and scalable for future disaster response efforts.
-
-🛠️ **Note**: UoL may implement the proposed indicators into a software package and is eager to take the lead in developing this package as part of a collaborative effort.
-:::
-
-This Hackathon offers an opportunity to contribute to tools and strategies that could significantly improve disaster response and resilience, not just in Pakistan but globally.
-
-## Output to be submitted
-
-::: {.callout-important title="Presentation and Code Submission"}
-Each team should prepare a concise presentation (around **5 slides**) to showcase their work at the end of the Hackathon. Focus on **clear and compelling communication** of your findings—impact matters as much as accuracy.
-
-In addition, teams are *strongly encouraged* to submit any code developed during the Hackathon. Sharing your code (e.g., via a GitHub repository) helps ensure that your solutions are **reproducible**, **scalable**, and ready to support future disaster response efforts.
+::: {.callout-note}
+**Recognition and publication**  
+All team contributions incorporated into future published works will be acknowledged. Outputs will feed into a forthcoming **policy paper** on digital trace data for humanitarian action. Teams whose SitReps are refined to publication standard will be supported to publish them on **ReliefWeb** — as the Iran conflict SitRep was in early 2026.
 :::
