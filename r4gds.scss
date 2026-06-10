@@ -1,0 +1,366 @@
+/*-- FloodTraces Custom Theme --*/
+/*-- Dark green accent · field-notebook feel · GPS-trace signature --*/
+
+/*-- scss:defaults --*/
+
+// Palette
+$green-deep:    #1a3a2a;
+$green-mid:     #2d5e3f;
+$green-bright:  #3d7a52;
+$green-muted:   #8ab89a;
+$green-surface: #e8f0eb;
+$green-rule:    #4a8c63;
+
+$body-bg:       #ffffff;
+$body-color:    #1a1a18;
+$text-muted:    #6b7c72;
+
+$link-color:         $green-mid;
+$link-hover-color:   $green-deep;
+
+// Typography
+$font-family-sans-serif: 'Inter', system-ui, -apple-system, sans-serif;
+$font-family-monospace:  'DM Mono', 'Fira Mono', monospace;
+
+$headings-font-family:   'Lora', Georgia, serif;
+$headings-font-weight:   600;
+$headings-color:         $green-deep;
+
+$font-size-root:  16px;
+$line-height-base: 1.75;
+
+// Sidebar
+$sidebar-bg:             $green-deep;
+$sidebar-fg:             #d4e8da;
+$sidebar-hl:             #a8d4b8;
+$sidebar-hl-color:       #ffffff;
+
+// Navbar (top bar)
+$navbar-bg:              $green-deep;
+$navbar-fg:              #d4e8da;
+$navbar-hl:              #ffffff;
+
+// Code blocks
+$code-block-bg:          #f4f6f5;
+$code-color:             $green-deep;
+
+// Borders
+$border-color:           #d0dbd3;
+
+// Callouts
+$callout-color-note:     $green-mid;
+
+/*-- scss:rules --*/
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+
+// ── Body & layout ──────────────────────────────────────────────
+
+body {
+  background-color: $body-bg;
+  color: $body-color;
+  font-family: $font-family-sans-serif;
+  font-weight: 400;
+}
+
+// ── Sidebar ────────────────────────────────────────────────────
+
+#quarto-sidebar {
+  background-color: $green-deep;
+  border-right: 1px solid darken($green-deep, 4%);
+
+  .sidebar-title a,
+  .sidebar-title {
+    color: #ffffff;
+    font-family: $headings-font-family;
+    font-size: 1.1rem;
+    letter-spacing: 0.01em;
+  }
+
+  .sidebar-item-text {
+    color: #c2dac9;
+    font-size: 0.875rem;
+    letter-spacing: 0.01em;
+  }
+
+  .sidebar-item.active > .sidebar-item-container .sidebar-item-text,
+  .sidebar-item.active .sidebar-item-text {
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  // Thin green rule on active item — the "trace" signature
+  .sidebar-item.active > .sidebar-item-container {
+    border-left: 3px solid $green-bright;
+    padding-left: 0.6rem;
+  }
+
+  .chapter-number {
+    color: $green-muted;
+    font-family: $font-family-monospace;
+    font-size: 0.75rem;
+    margin-right: 0.4em;
+    opacity: 0.85;
+  }
+}
+
+// ── Navbar ─────────────────────────────────────────────────────
+
+.navbar {
+  background-color: $green-deep !important;
+  border-bottom: 2px solid $green-bright;
+
+  .navbar-title {
+    font-family: $headings-font-family;
+    color: #ffffff !important;
+    font-size: 1.15rem;
+    letter-spacing: 0.02em;
+  }
+
+  .navbar-nav .nav-link {
+    color: #c2dac9 !important;
+    font-size: 0.875rem;
+
+    &:hover {
+      color: #ffffff !important;
+    }
+  }
+}
+
+// ── Content area ───────────────────────────────────────────────
+
+#quarto-content main {
+  max-width: 42rem;
+}
+
+// ── Headings ───────────────────────────────────────────────────
+
+// THE SIGNATURE: left trace rule on all headings
+h1, h2, h3, .title {
+  font-family: $headings-font-family;
+  color: $green-deep;
+}
+
+h1.title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  padding-left: 0.8rem;
+  border-left: 4px solid $green-bright;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding-left: 0.6rem;
+  border-left: 3px solid $green-muted;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  color: $green-mid;
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+// Chapter numbers — monospace, muted
+.chapter-number {
+  font-family: $font-family-monospace;
+  font-size: 0.8em;
+  color: $green-muted;
+  margin-right: 0.3em;
+}
+
+// ── Book intro / subtitle ──────────────────────────────────────
+
+.quarto-title-meta {
+  font-family: $font-family-monospace;
+  font-size: 0.8rem;
+  color: $text-muted;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+  border-top: 1px solid $border-color;
+  padding-top: 1rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: $text-muted;
+  font-style: italic;
+  margin-top: 0.75rem;
+  line-height: 1.65;
+}
+
+// ── Links ──────────────────────────────────────────────────────
+
+a {
+  color: $green-mid;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+
+  &:hover {
+    color: $green-deep;
+  }
+}
+
+// ── Margin header logo ─────────────────────────────────────────
+
+.margin-header img {
+  max-width: 80px;
+  height: auto;
+  opacity: 0.85;
+}
+
+// ── Bold / strong ──────────────────────────────────────────────
+
+strong, b {
+  color: $green-deep;
+  font-weight: 600;
+}
+
+// ── Code ───────────────────────────────────────────────────────
+
+code {
+  font-family: $font-family-monospace;
+  font-size: 0.85em;
+  color: $green-deep;
+  background-color: #f0f4f1;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: $code-block-bg;
+  border: 1px solid $border-color;
+  border-left: 3px solid $green-muted;
+  border-radius: 4px;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+// ── Callout blocks ─────────────────────────────────────────────
+
+.callout-note {
+  border-left-color: $green-mid !important;
+  background-color: $green-surface;
+
+  .callout-title {
+    color: $green-deep;
+    font-family: $font-family-monospace;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+}
+
+.callout-warning {
+  border-left-color: #b07a2a !important;
+}
+
+// ── Tables ─────────────────────────────────────────────────────
+
+table {
+  font-size: 0.9rem;
+
+  thead th {
+    background-color: $green-deep;
+    color: #ffffff;
+    font-family: $font-family-monospace;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.6rem 0.8rem;
+    font-weight: 500;
+  }
+
+  tbody tr:nth-child(even) td {
+    background-color: $green-surface;
+  }
+
+  tbody td {
+    padding: 0.5rem 0.8rem;
+  }
+}
+
+// ── TOC (right sidebar) ────────────────────────────────────────
+
+#TOC {
+  font-size: 0.82rem;
+
+  .nav-link {
+    color: $text-muted;
+    padding: 0.2rem 0;
+
+    &.active {
+      color: $green-mid;
+      font-weight: 600;
+      border-left: 2px solid $green-bright;
+      padding-left: 0.5rem;
+    }
+
+    &:hover {
+      color: $green-mid;
+    }
+  }
+}
+
+// ── Page footer ────────────────────────────────────────────────
+
+.nav-footer {
+  background-color: $green-deep;
+  color: #8ab89a;
+  font-family: $font-family-monospace;
+  font-size: 0.78rem;
+  border-top: none;
+  padding: 1.2rem 0;
+
+  a {
+    color: $green-muted;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+// ── Cover image area ───────────────────────────────────────────
+
+.quarto-cover-image img {
+  border: 3px solid $green-muted;
+}
+
+// ── Part titles ────────────────────────────────────────────────
+
+.part-title {
+  font-family: $headings-font-family;
+  font-size: 1.6rem;
+  color: $green-deep;
+  border-bottom: 2px solid $green-bright;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+// ── Blockquotes ────────────────────────────────────────────────
+
+blockquote {
+  border-left: 3px solid $green-bright;
+  padding-left: 1rem;
+  color: $text-muted;
+  font-style: italic;
+}
+
+// ── Reduced motion ─────────────────────────────────────────────
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

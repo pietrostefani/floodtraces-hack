@@ -1,0 +1,40 @@
+# Overview {#sec-overview .unnumbered}
+
+The global challenge of **internal displacement**, exacerbated by climate-induced natural hazards, demands more timely and granular data than traditional survey methods alone can provide. In 2024, floods affected an estimated **40 million people** worldwide — making them the most common disaster type globally — yet decision-makers in the critical first days after an event often face a near-total absence of reliable displacement figures.
+
+**FloodTraces** addresses this gap by developing a replicable data pipeline that integrates **digital trace data** — GPS mobility records, social media signals, satellite imagery, and Cloudflare connectivity estimates — with traditional sources such as IOM's Displacement Tracking Matrix surveys. The goal is not to replace established methods, but to triangulate and augment them: producing estimates that are faster, spatially finer, and available earlier than field surveys alone can deliver.
+
+The project makes three complementary contributions:
+
+**Timely insights when traditional data are scarce.**  
+A replicable pipeline that delivers actionable displacement information in the critical first weeks after a flood, before survey operations are fully operational.
+
+**Triangulation and validation of traditional sources.**  
+Cross-referencing GPS signals and other digital traces with IOM DTM data to strengthen the reliability and coverage of displacement assessments.
+
+**Anticipatory action in recurrent flood contexts.**  
+Spatially and temporally granular data to inform preparedness in areas with a known history of repeated flooding.
+
+## Case Studies {.unnumbered}
+
+As a proof of concept, the pipeline is applied to three 2024 flood events:
+
+| Country | Event | Analysis Window |
+|---|---|---|
+| **Colombia** | Chocó and north-western corridor floods | October–November 2024 |
+| **Indonesia** | Multi-province flooding | February–March 2024 |
+| **Pakistan** | Seasonal monsoon floods | *2022 event; historical analysis* |
+
+Each case study produces a **Digital Traces Situation Report (SitRep)** — a concise, policy-oriented document showing displacement estimates derived from the GPS pipeline, key validation against OCHA and IOM benchmarks, and a brief summary of data limitations. The Colombia and Indonesia SitReps are presented at the Day 1 policy workshop; the Pakistan case forms the basis for the hackathon.
+
+## Partners {.unnumbered}
+
+This work is led by the [Geographic Data Science Lab](https://www.liverpool.ac.uk/geographic-data-science/) at the University of Liverpool, conducted in close partnership with:
+
+- **FCDO** (Foreign, Commonwealth & Development Office) — primary funder and policy partner
+- **IOM Displacement Tracking Matrix (DTM)** — operational data partner and validation benchmark
+- **Snowflake** — data infrastructure support via the [End Data Disparity](https://www.snowflake.com/en/company/overview/end-data-disparity/) initiative
+
+::: {style="text-align: center;"}
+<img src="img/LIV ILLU_LAYOUT_A1_FINAL.jpg" width="400"/>
+:::

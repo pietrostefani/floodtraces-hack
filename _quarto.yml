@@ -1,0 +1,50 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "FloodTraces"
+  author: "Dr. Elisabetta Pietrostefani, Andrea Nasuto, Matt Mason, Dr. Martina Pardy, Prof. Francisco Rowe"
+  date: today
+  chapters:
+    - index.qmd
+    - overview.qmd
+    - workshop.qmd
+    - part: probstatement.qmd
+      chapters:
+        - casestudy.qmd
+        - datasets.qmd
+        - output.qmd
+        - researchareas.qmd
+    - part: dataaccess.qmd
+    - references.qmd
+
+  page-footer:
+    left: |
+      FloodTraces by Elisabetta Pietrostefani.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  site-url:  https://pietrostefani.github.io/pop-displacement-disaster
+  repo-url: https://github.com/pietrostefani/pop-displacement-disaster
+  repo-actions: [edit]
+  sharing: [twitter, facebook]
+  cover-image: Image2.jpg
+  cover-image-alt: |
+    Alternative text describing the book cover
+  twitter-card:
+    creator: "@EPietrostefani"
+
+bibliography: references.bib
+margin-header: |
+  ![](/logos_web.png)
+
+format:
+  html:
+    theme: 
+    - cosmo
+    - r4gds.scss
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
