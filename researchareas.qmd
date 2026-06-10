@@ -1,61 +1,61 @@
 # Digital Traces SitReps {.unnumbered}
 
-A core output of **FloodTraces** is a set of **Digital Traces Situation Reports** — concise, policy-oriented documents that translate GPS pipeline outputs into actionable displacement assessments for humanitarian decision-makers.
+A core output of **FloodTraces** is a set of **Digital Traces Situation Reports** — concise, policy-oriented documents that translate digital trace pipeline outputs into actionable displacement assessments for humanitarian decision-makers.
 
 Each SitRep is designed to be:
 
-- **Timely** — producible within days of a flood event, not weeks
-- **Spatially specific** — displacement estimates disaggregated to administrative unit level
-- **Honest about limitations** — clearly communicating data coverage gaps, demographic biases, and uncertainty
-- **Comparable** — benchmarked against OCHA and IOM DTM reported figures where available
+-   **Timely** — producible within days of a flood event, not weeks
+-   **Spatially specific** — displacement estimates disaggregated to administrative unit level
+-   **Honest about limitations** — clearly communicating data coverage gaps, demographic biases, and uncertainty
+-   **Comparable** — benchmarked against OCHA, IOM DTM or other reported figures where available.
 
----
+------------------------------------------------------------------------
 
 ## Colombia SitRep {.unnumbered}
 
-**Event:** Chocó and north-western corridor floods, November 2024  
-**Analysis window:** October–November 2024  
-**Validation benchmark:** OCHA reported displaced population (~28,500 people)
+**Event:** Chocó and north-easter floods, November 2024\
+**Analysis window:** October–November 2024\
+**Validation benchmark:** OCHA reported displaced population (\~28,500 people)
 
-The Colombia SitRep applies a **difference-in-differences analytical design** using GPS mobility data from Veraset. Treated units are admin2 areas within the flood-affected north-western corridor (Chocó, Antioquia, Córdoba, Caldas, Risaralda, Valle del Cauca); control units are comparable unflooded admin2 areas elsewhere in Colombia. Displacement is defined as an absence from the home location of **five or more consecutive days**, with sensitivity checks at three and seven days.
+The Colombia SitRep applies a **difference-in-differences analytical design** using GPS mobility data from Veraset. Treated units are admin2 areas within the flood-affected north-easter corridor; control units are comparable unflooded admin2 areas elsewhere in Colombia. Displacement is defined as an absence from the home location of **three or more consecutive days**, with sensitivity checks.
 
-Key confounder events within the analysis window — including public holidays, agricultural cycles, and major population movements — are accounted for via per-day dummy variables coded by severity.
+Key confounder events within the analysis window — including public holidays, agricultural cycles, and major population movements — are accounted for.
 
 *The Colombia SitRep will be presented on Day 1 of the policy workshop.*
 
----
+------------------------------------------------------------------------
 
 ## Indonesia SitRep {.unnumbered}
 
-**Event:** Multi-province flooding, early 2024  
-**Analysis window:** February–March 2024  
+**Event:** Multi-province flooding, early 2024\
+**Analysis window:** February–March 2024\
 **Validation benchmark:** IOM DTM displacement figures
 
-The Indonesia SitRep follows the same GPS pipeline and DiD framework as Colombia, adapted to Indonesia's administrative structure and flood geography. Analysis is careful to account for the **Ramadan/mudik** period (the annual mass return migration ahead of Eid), which falls within the analysis window and represents a major confounder for mobility-based displacement signals.
+The Indonesia SitRep follows the same GPS pipeline and DiD framework as Colombia, adapted to Indonesia's administrative structure and flood geography.
 
 *The Indonesia SitRep will be presented on Day 1 of the policy workshop.*
 
----
+------------------------------------------------------------------------
 
 ## Pakistan SitRep {.unnumbered}
 
 **Event:** Monsoon floods, August–October 2022  
-**Status:** Hackathon case study
+**Status:** Hackathon case study — participant-produced SitRep
 
-Pakistan's 2022 floods were among the most severe climate disasters in recent history, affecting over 33 million people and displacing millions across Sindh, Balochistan, and Khyber Pakhtunkhwa. The Pakistan case provides the analytical foundation for the hackathon problem statements.
+Pakistan's 2022 floods were among the most severe climate disasters in recent history, affecting over 33 million people and displacing millions across Sindh, Balochistan, and Khyber Pakhtunkhwa. The Pakistan case provides the analytical foundation for the hackathon — with the goal that participating teams produce a Digital Traces SitRep for Pakistan, adding a third country example to sit alongside Colombia and Indonesia.
 
-Unlike the Colombia and Indonesia SitReps — which use the FloodTraces GPS pipeline — the Pakistan hackathon draws on **Meta Data for Good** mobility and population datasets alongside IOM DTM rounds 1–6 from the 2022 response. Teams working on the Pakistan case will engage with questions of cross-source validation, signal comparability, and how digital trace findings can be communicated to operational audiences.
+Unlike the Colombia and Indonesia SitReps — which use the FloodTraces GPS pipeline — the Pakistan hackathon draws on Meta Data for Good mobility and population datasets alongside IOM DTM rounds 1–6 from the 2022 response. Teams will engage with questions of cross-source validation, signal comparability, and how digital trace findings can be communicated to operational audiences. A successful output would be a SitRep that follows the same structure as the Colombia and Indonesia reports, adapted to the data sources and humanitarian context of Pakistan.
 
 *Full data documentation will be circulated to hackathon participants at the pre-event meeting.*
 
----
+------------------------------------------------------------------------
 
 ## What a SitRep Contains {.unnumbered}
 
 Each Digital Traces SitRep follows a common structure:
 
 | Section | Content |
-|---|---|
+|------------------------------------|------------------------------------|
 | **Event summary** | Flood dates, affected geography, OCHA/IOM headline figures |
 | **Data sources** | GPS provider, coverage statistics, known gaps |
 | **Displacement signal** | Estimated displaced population by admin unit and time period |
@@ -63,7 +63,7 @@ Each Digital Traces SitRep follows a common structure:
 | **Limitations** | Demographic biases, device penetration, confounder risks |
 | **Analytical notes** | DiD design, displacement threshold, sensitivity checks |
 
-::: {.callout-note}
-**A note on benchmarks**  
-SitRep validation is always conducted against **displaced** figures reported by OCHA or IOM — not the broader "affected" population count, which includes people whose property or livelihoods were impacted without displacement. These figures differ substantially and the distinction is analytically critical.
+::: callout-note
+**A note on benchmarks**\
+SitRep validation is always conducted against **displaced** figures reported by OCHA, IOM or alternative Digital Trace derived estimates — not the broader "affected" population count, which includes people whose property or livelihoods were impacted without displacement. These figures differ substantially and the distinction is analytically critical.
 :::
