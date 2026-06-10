@@ -8,6 +8,10 @@ Led by the [Geographic Data Science Lab](https://www.liverpool.ac.uk/geographic-
 
 **FloodTraces** develops a replicable data pipeline combining **GPS mobility data**, social media signals, satellite imagery, and traditional survey sources to produce timely, spatially detailed estimates of flood-driven population displacement. The pipeline generates **Digital Traces Situation Reports (SitReps)** — concise, policy-oriented documents designed for humanitarian decision-makers in the critical first weeks after a disaster.
 
+::: {style="text-align: center; margin: 2rem 0;"}
+<img src="img/floodtraces_logo.svg" width="680" alt="FloodTraces logo: a point displaced by flooding and returning to origin"/>
+:::
+
 ---
 
 ## Beyond Floods {.unnumbered}

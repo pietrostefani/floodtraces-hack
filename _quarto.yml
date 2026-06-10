@@ -29,7 +29,6 @@ book:
   repo-url: https://github.com/pietrostefani/pop-displacement-disaster
   repo-actions: [edit]
   sharing: [twitter, facebook]
-  cover-image: Image2.jpg
   cover-image-alt: |
     Alternative text describing the book cover
   twitter-card:
