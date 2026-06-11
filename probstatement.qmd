@@ -4,12 +4,11 @@ Over two days, your team will tackle one of three challenges using real digital 
 
 Each team selects one problem statement. Your chosen area must be confirmed at the pre-hackathon meeting during the week of **15 June 2026**.
 
-All teams are required to use **at least one of the provided datasets**. The Pakistan case study and full data documentation are described in the following sections — read these before confirming your problem statement. 
+All teams are required to use **at least one of the provided datasets**. The Pakistan case study and full data documentation are described in the following sections — read these before confirming your problem statement.
 
-::: {.callout-note}
+::: callout-note
 Given the limited timeframe, the use of additional datasets beyond those provided is generally discouraged. If you have a specific source in mind, consult the organisers in advance.
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -21,6 +20,7 @@ Participation is structured around pre-assigned mixed teams. Each team includes 
 **Pre-hackathon meetings**\
 Two online pre-hackathon meetings will take place during the week of **15 June 2026**. These sessions cover team introductions, problem statement confirmation, and a guided walkthrough of the data packs.
 :::
+
 ------------------------------------------------------------------------
 
 ## 1. Replicate and Refine {.unnumbered}

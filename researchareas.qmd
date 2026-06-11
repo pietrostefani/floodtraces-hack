@@ -39,7 +39,7 @@ The Indonesia SitRep follows the same GPS pipeline and DiD framework as Colombia
 
 ## Pakistan SitRep {.unnumbered}
 
-**Event:** Monsoon floods, August–October 2022  
+**Event:** Monsoon floods, August–October 2022\
 **Status:** Hackathon case study — participant-produced SitRep
 
 Pakistan's 2022 floods were among the most severe climate disasters in recent history, affecting over 33 million people and displacing millions across Sindh, Balochistan, and Khyber Pakhtunkhwa. The Pakistan case provides the analytical foundation for the hackathon — with the goal that participating teams produce a Digital Traces SitRep for Pakistan, adding a third country example to sit alongside Colombia and Indonesia.
@@ -55,7 +55,7 @@ Unlike the Colombia and Indonesia SitReps — which use the FloodTraces GPS pipe
 Each Digital Traces SitRep follows a common structure:
 
 | Section | Content |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Event summary** | Flood dates, affected geography, OCHA/IOM headline figures |
 | **Data sources** | GPS provider, coverage statistics, known gaps |
 | **Displacement signal** | Estimated displaced population by admin unit and time period |
