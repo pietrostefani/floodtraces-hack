@@ -29,8 +29,7 @@ Each case study produces a **Digital Traces Situation Report (SitRep)** — a co
 
 ## Partners {.unnumbered}
 
-This work is led by the [Geographic Data Science Lab](https://www.liverpool.ac.uk/geographic-data-science/) at the University of Liverpool, and supported by [Imago: Data Service for Imager](https://imago.ac.uk/) conducted in close partnership with:
+This work is led by the [Geographic Data Science Lab](https://www.liverpool.ac.uk/geographic-data-science/) at the University of Liverpool, and supported by [Imago: Data Service for Imagery](https://imago.ac.uk/) conducted in close partnership with:
 
 -   **FCDO** (Foreign, Commonwealth & Development Office) — primary funder and policy partner
 -   **IOM Displacement Tracking Matrix (DTM)** — operational data partner and validation benchmark
-
