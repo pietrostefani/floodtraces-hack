@@ -6,15 +6,15 @@ The event runs across three days, combining a senior policy workshop on Day 1 wi
 
 **Day 1 — Policy Workshop** is a high-level dialogue with representatives from FCDO, IOM Displacement Tracking Matrix, NGOs, and partner organisations. The day centres on presenting the Colombia and Indonesia Digital Traces Situation Reports, gathering structured feedback on their usefulness and adoption potential, and surfacing the wider data landscape for flood response. *Attendance on Day 1 is required for all hackathon participants — the morning and early afternoon provide essential framing, methodological context, and direct exposure to the policy stakeholders whose feedback shapes hackathon outputs.*
 
-::: {.callout-note}
-**Joining online**  
+::: callout-note
+**Joining online**\
 Day 1 is open to remote participants via Microsoft Teams.
 
-**[Click here to join](https://teams.microsoft.com/meet/336479870017958?p=Vr4zma6sQGjxxzUrlm)**  
-**Meeting ID:** 336 479 870 017 958  
+[**Click here to join**](https://teams.microsoft.com/meet/336479870017958?p=Vr4zma6sQGjxxzUrlm)\
+**Meeting ID:** 336 479 870 017 958\
 **Passcode:** Eh3B4Xb3
 
-For any technical difficulties, contact **Dr Martina Pardy** at [m.l.pardy@liverpool.ac.uk](mailto:m.l.pardy@liverpool.ac.uk).
+For any technical difficulties, contact **Dr Martina Pardy** at [m.l.pardy\@liverpool.ac.uk](mailto:m.l.pardy@liverpool.ac.uk).
 :::
 
 **Days 2–3 — Hackathon** teams work on one of three problem statements using real digital trace mobility, IOM DTM data and contextual data. Selected policy attendees return on Day 3 afternoon for final presentations.
@@ -47,9 +47,9 @@ Scene-setting: why floods, why digital trace data, and how Day 1 connects to the
 
 **10:20–11:00 — Reading Floods: What New Data Can and Cannot Tell Us** *(40 min)*
 
--   Digital trace data as a population signal — what the GPS pipeline produces, what it measures, and how to read it critically *(10 min — Andrea Nasuto)*
--   Indonesia & Colombia SitReps *(20 min — Matt Mason)*
--   Comparative discussion — what differs across contexts, what patterns hold *(10 min — Martina Pardy)*
+- Digital trace data as a population signal — what the GPS pipeline produces, what it measures, and how to read it critically *(10 min — Andrea Nasuto)*
+- Indonesia & Colombia SitReps *(20 min — Matt Mason)*
+- Comparative discussion — what differs across contexts, what patterns hold *(10 min — Martina Pardy)*
 
 ::: {style="text-align: left;"}
 **11:00–11:30 — Coffee**
@@ -61,11 +61,11 @@ Scene-setting: why floods, why digital trace data, and how Day 1 connects to the
 
 A panel of flood and displacement specialists exploring what different data sources can and cannot tell us — and what should give policy audiences pause.
 
--   **Francisco Rowe** — Demographic skew and representativeness in digital trace data: rural/urban footprint, mobile penetration in flood-prone low-income areas, gendered device access *(15 min)*
--   **Ana Varela Varela** — Flood measurement and impact evaluation for a policy audience *(15 min)*
--   **Zara Shabrina** — Multidimensional datasets and flood trajectories: lessons from sinking Jakarta *(15 min)*
--   **Fawad Qureshi** — Validating flood policies through a structured lens using natural language processing *(15 min)*
--   **Panel Q&A and synthesis** *(30 min)*
+- **Francisco Rowe** — Tackling biases in digital trace data *(15 min)*
+- **Ana Varela Varela** — Flood measurement and impact evaluation for a policy audience *(15 min)*
+- **Zara Shabrina** — Multidimensional datasets and flood trajectories: lessons from sinking Jakarta *(15 min)*
+- **Fawad Qureshi** — Validating flood policies through a structured lens using natural language processing *(15 min)*
+- **Panel Q&A and synthesis** *(30 min)*
 
 ::: {style="text-align: left;"}
 **13:00–14:00 — Networking Lunch**
