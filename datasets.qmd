@@ -75,6 +75,8 @@ All the data mentioned in this document is accessible via **Zenodo**. Further ac
 
     -   [Round 6 – Balochistan and Khyber Pakhtunkhwa Provinces (August 2024)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-round-6-balochistan-and-khyber)
 
+-   [Round 7 – Punjab Province (September - October 2025)](https://dtm.iom.int/reports/pakistan-flood-response-community-needs-identification-cni-report-round-7-punjab-province)
+
 ### 2.3. Contextual Data
 
 -   Alongside mobility data, we have prepared a series of datasets that provide additional context to Pakistan. They consist of population data in raster and aggregated form, and socioeconomic data, also in raster and aggregated format.
