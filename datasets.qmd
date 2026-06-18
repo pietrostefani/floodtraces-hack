@@ -22,7 +22,7 @@ The human mobility datasets provided for the Hackathon fall into one of two cate
 
 ## 1. Data Access
 
-All the data mentioned in this document is accessible via **Zenodo**. Further access details and guidance will be added here shortly.
+All the data mentioned in this document is accessible via [**Zenodo**](https://zenodo.org/records/20728877) for Hackathon participants. More detail on data access can be found [here](dataaccess.qmd).
 
 ## 2. Datasets
 
@@ -177,3 +177,11 @@ All the data mentioned in this document is accessible via **Zenodo**. Further ac
 +------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
 | WFP - NVDI at Subnational Level                                              | ADM2_PCODE                                 | District (adm2) polygon | OCHA subnational polygons (**ADM2_PCODE**)                  |
 +------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
+
+## Other Resources
+
+Although not the main focus of the FloodTraces Hackathon, participants may find it helpful to check out work doene as part of the Empowering Resilience in a Sinking City project, which focused on the case of Jakarta, Indonesia. 
+
+You can learn more about the project [here[(https://www.sinking-city.com/about) and access the data they used in their own Hackathon event [here](https://zenodo.org/records/19456870).
+
+
