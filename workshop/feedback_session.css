@@ -1,0 +1,341 @@
+/* ================================================================
+   FloodTraces Workshop — Feedback Session Guide
+   CSS for WeasyPrint PDF rendering
+   Matches FloodTraces website: white, clean sans-serif, green accents
+   ================================================================ */
+
+/* ---- Fonts ---- */
+@font-face {
+  font-family: 'DejaVu Sans';
+  src: local('DejaVu Sans');
+}
+
+/* ---- Page setup with running footers ---- */
+@page {
+  size: A4;
+  margin: 18mm 20mm 20mm 20mm;
+
+  @bottom-left {
+    content: "FloodTraces Workshop · LSE";
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    font-size: 7.5pt;
+    color: #888;
+    padding-top: 4mm;
+    border-top: 0.5pt solid #c8dcc8;
+  }
+
+  @bottom-center {
+    content: counter(page);
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    font-size: 7.5pt;
+    color: #aaa;
+    padding-top: 4mm;
+    border-top: 0.5pt solid #c8dcc8;
+  }
+
+  @bottom-right {
+    content: "22 June 2026";
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    font-size: 7.5pt;
+    color: #888;
+    padding-top: 4mm;
+    border-top: 0.5pt solid #c8dcc8;
+  }
+}
+
+/* ---- Colour tokens ---- */
+:root {
+  --green-deep:    #1a3d1a;
+  --green-mid:     #2d6a2d;
+  --green-accent:  #4a9e4a;
+  --green-light:   #eaf4ea;
+  --green-border:  #b8d9b8;
+  --amber:         #8a5c00;
+  --amber-light:   #fff8e6;
+  --amber-border:  #d4a820;
+  --grey-dark:     #333;
+  --grey-mid:      #5a5a5a;
+  --grey-light:    #f4f4f2;
+  --grey-border:   #d8d8d8;
+  --rule:          #c8dcc8;
+}
+
+/* ---- Base ---- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  color: var(--grey-dark);
+  background: #fff;
+}
+
+/* ---- Title block ---- */
+.quarto-title-block,
+header {
+  border-bottom: 2pt solid var(--green-accent);
+  padding-bottom: 8pt;
+  margin-bottom: 12pt;
+}
+
+.title {
+  font-size: 17pt;
+  font-weight: 700;
+  color: var(--green-deep);
+  margin-bottom: 2pt;
+  display: block;
+}
+
+.subtitle,
+p.subtitle {
+  font-size: 10pt;
+  color: var(--grey-mid);
+  display: block;
+  margin-bottom: 2pt;
+}
+
+.date,
+p.date {
+  font-size: 9pt;
+  color: var(--grey-mid);
+  display: block;
+}
+
+/* ---- Section headings ---- */
+h1, h2 {
+  font-size: 11.5pt;
+  font-weight: 600;
+  color: var(--green-deep);
+  border-bottom: 1.5pt solid var(--rule);
+  padding-bottom: 3pt;
+  margin-top: 16pt;
+  margin-bottom: 6pt;
+  letter-spacing: 0.01em;
+}
+
+h3 {
+  font-size: 10.5pt;
+  font-weight: 600;
+  color: var(--grey-dark);
+  margin-top: 10pt;
+  margin-bottom: 4pt;
+}
+
+/* ---- Body text ---- */
+p {
+  margin: 4pt 0 6pt;
+  font-size: 10.5pt;
+}
+
+strong { font-weight: 600; }
+em { font-style: italic; }
+
+/* ---- Horizontal rule ---- */
+hr {
+  border: none;
+  border-top: 1pt solid var(--rule);
+  margin: 10pt 0;
+}
+
+/* ---- Session meta banner ---- */
+.session-meta {
+  background: var(--grey-light);
+  border-left: 3pt solid var(--green-accent);
+  border-radius: 0 4pt 4pt 0;
+  padding: 7pt 11pt;
+  font-size: 9.5pt;
+  color: var(--grey-mid);
+  margin-bottom: 10pt;
+}
+
+.session-meta strong { color: var(--grey-dark); }
+.session-meta p { margin: 3pt 0; }
+.session-meta p:first-child { margin-top: 0; }
+.session-meta p:last-child { margin-bottom: 0; }
+
+/* ---- Time tag ---- */
+.time-tag {
+  display: inline-block;
+  font-size: 8pt;
+  font-weight: 600;
+  color: var(--green-mid);
+  background: var(--green-light);
+  border: 1pt solid var(--green-border);
+  border-radius: 8pt;
+  padding: 1pt 7pt;
+  margin-bottom: 6pt;
+}
+
+/* ---- Script box (green — facilitator words) ---- */
+.script-box {
+  background: var(--green-light);
+  border-left: 3pt solid var(--green-accent);
+  border-radius: 0 4pt 4pt 0;
+  padding: 8pt 11pt;
+  margin: 6pt 0;
+  font-size: 10pt;
+  color: #1c2e1c;
+  -webkit-print-color-adjust: exact;
+}
+
+.script-box strong { color: var(--green-deep); }
+.script-box p { margin: 3pt 0; }
+.script-box p:first-child { margin-top: 0; }
+.script-box p:last-child { margin-bottom: 0; }
+
+/* ---- Framing note (neutral grey) ---- */
+.framing-note {
+  background: var(--grey-light);
+  border-left: 3pt solid var(--grey-border);
+  border-radius: 0 4pt 4pt 0;
+  padding: 7pt 11pt;
+  margin: 6pt 0;
+  font-size: 9.5pt;
+  color: var(--grey-mid);
+  -webkit-print-color-adjust: exact;
+}
+
+.framing-note strong { color: var(--grey-dark); }
+.framing-note p { margin: 3pt 0; }
+.framing-note p:first-child { margin-top: 0; }
+.framing-note p:last-child { margin-bottom: 0; }
+
+/* ---- Recorder box (amber — Liverpool team) ---- */
+.recorder-box {
+  background: var(--amber-light);
+  border-left: 3pt solid var(--amber-border);
+  border-radius: 0 4pt 4pt 0;
+  padding: 7pt 11pt;
+  margin: 6pt 0;
+  font-size: 9.5pt;
+  color: #3d2c00;
+  -webkit-print-color-adjust: exact;
+}
+
+.recorder-box strong { color: var(--amber); }
+.recorder-box p { margin: 3pt 0; }
+.recorder-box p:first-child { margin-top: 0; }
+.recorder-box p:last-child { margin-bottom: 0; }
+.recorder-box ul {
+  margin: 4pt 0 0;
+  padding-left: 14pt;
+}
+.recorder-box li { margin-bottom: 2pt; }
+
+/* ---- Stakeholder tags ---- */
+.stakeholder-tags {
+  margin: 4pt 0 7pt;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5pt;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 8pt;
+  font-weight: 600;
+  color: var(--green-deep);
+  background: #fff;
+  border: 1.5pt solid var(--green-accent);
+  border-radius: 3pt;
+  padding: 1pt 7pt;
+}
+
+/* ---- Probe / bullet lists ---- */
+.probe-list ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 3pt 0 7pt;
+}
+
+.probe-list li {
+  padding: 2.5pt 0 2.5pt 16pt;
+  position: relative;
+  font-size: 10pt;
+  line-height: 1.5;
+}
+
+.probe-list li::before {
+  content: "\2192"; /* → */
+  position: absolute;
+  left: 0;
+  color: var(--green-accent);
+  font-weight: 700;
+}
+
+.probe-list li strong { color: var(--green-deep); }
+.probe-list li em { color: var(--grey-mid); }
+
+/* ---- Subhead (bold body lead) ---- */
+p strong:only-child,
+.subhead {
+  color: var(--grey-dark);
+}
+
+/* ---- Capture sheet ---- */
+.capture-header {
+  page-break-before: always;
+}
+
+.capture-note {
+  font-size: 9pt;
+  color: var(--grey-mid);
+  margin-bottom: 7pt;
+}
+
+.capture-note strong { color: var(--grey-dark); }
+
+/* ---- Table ---- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.5pt;
+  margin: 5pt 0;
+}
+
+thead tr {
+  background: var(--green-light);
+  -webkit-print-color-adjust: exact;
+}
+
+thead th {
+  font-weight: 600;
+  color: var(--green-deep);
+  font-size: 9pt;
+  padding: 5pt 8pt;
+  border: 1pt solid var(--green-border);
+  text-align: left;
+}
+
+thead th:last-child {
+  text-align: center;
+  width: 50pt;
+}
+
+tbody tr {
+  height: 24pt;
+}
+
+tbody tr:nth-child(even) {
+  background: #fafaf8;
+  -webkit-print-color-adjust: exact;
+}
+
+tbody td {
+  border: 1pt solid var(--grey-border);
+  padding: 2pt 8pt;
+  vertical-align: top;
+}
+
+tbody td:last-child { text-align: center; }
+
+/* ---- Page break controls ---- */
+h1, h2 { page-break-after: avoid; }
+.script-box,
+.recorder-box,
+.framing-note { page-break-inside: avoid; }
