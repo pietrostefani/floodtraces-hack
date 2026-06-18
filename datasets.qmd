@@ -22,7 +22,11 @@ The human mobility datasets provided for the Hackathon fall into one of two cate
 
 ## 1. Data Access
 
-All the data mentioned in this document is accessible via [**Zenodo**](https://zenodo.org/records/20728877) for Hackathon participants. More detail on data access can be found [here](dataaccess.qmd).
+All the data mentioned in this document is accessible via [**Zenodo**](https://zenodo.org/records/20728877) for Hackathon participants. 
+
+::: {.callout-note}
+To access the Zenodo repository, you will need to sign up for the Hackathon and complete the data access form provided upon registration.
+:::
 
 ## 2. Datasets
 
@@ -182,6 +186,6 @@ All the data mentioned in this document is accessible via [**Zenodo**](https://z
 
 Although not the main focus of the FloodTraces Hackathon, participants may find it helpful to check out work doene as part of the Empowering Resilience in a Sinking City project, which focused on the case of Jakarta, Indonesia. 
 
-You can learn more about the project [here[(https://www.sinking-city.com/about) and access the data they used in their own Hackathon event [here](https://zenodo.org/records/19456870).
+You can learn more about the project [Sinking City](https://www.sinking-city.com/about) and access the data they used in their own Hackathon event [here](https://zenodo.org/records/19456870).
 
 
