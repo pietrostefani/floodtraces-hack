@@ -1,0 +1,185 @@
+---
+title: "Structured Feedback Session"
+subtitle: "Usefulness, Gaps & Adoption Pathways · 14:00–15:00"
+date: "22 June 2026"
+format:
+  html:
+    toc: false
+    self-contained: true
+    css: feedback_session.css
+    
+---
+
+::: {.session-meta}
+On-the-record input from FCDO, IOM, NGOs, and partner organisations. To be synthesised and circulated within one week. **Each University of Liverpool team member is responsible for live capture in their group.**
+
+**Before we begin**: we would like to audio-record this session to support note-taking. The recording will be sent to the project team, stored securely, and deleted from all personal devices once transferred. Please indicate now if you would prefer not to be recorded.
+:::
+
+---
+
+## Opening {.block-header}
+
+::: {.time-tag}
+~5 min
+:::
+
+::: {.script-box}
+**Facilitator:** "This session is on the record — your input will directly shape how this pipeline is refined and how it's presented to decision-makers and funders. We need to know where it works, where it doesn't, and what it would actually take for your organisation to use it."
+
+"We'll give each group a specific turn so everyone speaks, not just the loudest voice in the room. We'll capture responses live under three headings: **useful**, **missing**, **conditions for adoption**."
+:::
+
+::: {.framing-note}
+**Brief framing on the pipeline — one minute only.** Restate the three value propositions as a single orienting sentence:
+
+*Timely post-disaster insights from digital trace data, used to triangulate traditional sources and enable anticipatory action in recurrent flood contexts.*
+
+Confirm that everyone has seen at least one SitRep before inviting feedback. If not, direct them to the resources page.
+:::
+
+::: {.recorder-box}
+**Liverpool team recorder:** Note who is present from each stakeholder group. If someone has not seen a SitRep, flag this — their feedback on format and interpretability will be especially valuable.
+:::
+
+---
+
+## Block 1 · Usefulness {.block-header}
+
+::: {.time-tag}
+~15 min
+:::
+
+**Where would this have changed a decision?**
+
+::: {.script-box}
+"Think back to the last 12 months. Name a specific decision point — a coordination call, a funding request, a response plan — where having earlier or more granular displacement data would have changed what you did or recommended."
+:::
+
+Go in this order, one group at a time:
+
+::: {.stakeholder-tags}
+[FCDO]{.tag} [IOM / DTM]{.tag} [NGOs]{.tag} [Partners]{.tag}
+:::
+
+::: {.probe-list}
+- **If they say "useful in general"** — press for the specific decision, not the general problem.
+- **If they say "we already had the data"** — note the source; that's a triangulation or validation case.
+- **If they say "we wouldn't have had access"** — note as an adoption barrier; hold for Block 3.
+:::
+
+::: {.recorder-box}
+**Liverpool team recorder:** Capture the specific decision, the organisation, and the time-frame. Paraphrase is not enough — write what they actually say. Use the capture sheet on the last page.
+:::
+
+---
+
+## Block 2 · Gaps {.block-header}
+
+::: {.time-tag}
+~20 min
+:::
+
+**What's missing that would make this unusable as-is?**
+
+::: {.script-box}
+"Set aside whether it's a good idea in principle. If someone handed you a SitRep tomorrow and asked you to use it in a briefing or operational decision — what would stop you? What would you need to verify first?"
+:::
+
+If the room goes quiet, prompt by dimension:
+
+::: {.probe-list}
+- **Timeliness** — how quickly after an event would you need it? *(Stakeholders have indicated up to one month post-event may be acceptable.)*
+- **Granularity** — is admin2 / district-level sufficient, or do you need finer resolution? *(Current guidance: keep to standard admin levels.)*
+- **Trust and provenance** — what would you need to know about the data source to cite this in a report?
+- **Data protection** — what questions would your legal or ethics team ask before you used it?
+- **Format** — would a PDF SitRep reach the right people, or does it need to be a live dashboard, a data feed, a one-page summary?
+- **Bias and coverage** — who is likely missing from the digital trace signal, and does that matter for your context?
+:::
+
+**Watch for these specific gaps to surface:**
+
+::: {.probe-list}
+- **Representativeness** — rural, low-connectivity, elderly, or already-displaced populations
+- **Interpretability** — what does a "5-day displacement threshold" mean to a non-technical audience?
+- **Comparison baseline** — displacement relative to what — pre-event norms, neighbouring areas?
+- **Absence of outcome data** — does the signal tell you where people went, or only that they left?
+:::
+
+::: {.recorder-box}
+**Liverpool team recorder:** Tag each gap to a dimension (timeliness / trust / format / bias…). Note whether the gap is *fixable within the current pipeline* or *a structural limitation of the data*. This distinction matters for the synthesis.
+:::
+
+---
+
+## Block 3 · Adoption Pathways {.block-header}
+
+::: {.time-tag}
+~15 min
+:::
+
+**What would need to be true to integrate this?**
+
+::: {.script-box}
+"If you wanted to put this into a real workflow — even a small pilot — what would your organisation need first? What's the first thing that would block it?"
+:::
+
+Probe by barrier type:
+
+::: {.probe-list}
+- **Capacity** — does your team have someone who could interpret a GPS mobility analysis, or would you need it translated into plain language?
+- **Institutional trust** — would it need to be validated by an existing partner (UN, ICRC) before your organisation would cite it?
+- **Trigger mechanism** — for anticipatory use, who would initiate the request for a SitRep, and on what timeline?
+:::
+
+::: {.framing-note}
+**Note for facilitator:** Data-sharing agreements and legal buy-in from mobile network operators are known constraints but are *beyond the scope of this session*. Acknowledge if raised; do not open a full discussion.
+
+Planned outputs already in development to address accessibility: **Digital Trace Fact Sheets** explaining data types to policy and humanitarian audiences, and a streamlined SitRep format designed to be readable in under five minutes.
+:::
+
+::: {.recorder-box}
+**Liverpool team recorder:** Note the barrier type and whether it is *organisational* (capacity, trust) or *structural* (procurement, legal). Flag any barriers shared across multiple stakeholder groups — those are priorities.
+:::
+
+---
+
+## Close {.block-header}
+
+::: {.time-tag}
+~5 min
+:::
+
+::: {.script-box}
+"We'll circulate a one-page summary of this session within one month — grouped under the three headings — so you can check what we've captured. If we've misrepresented anything, we want to know. This input will feed directly into a perspectives policy paper and the project's next phase."
+:::
+
+---
+
+## Live Capture Sheet {.block-header .capture-header}
+
+::: {.capture-note}
+One row per substantive contribution. Record in the speaker's words where possible. Tag each input: **U** = Usefulness · **G** = Gaps · **A** = Adoption
+:::
+
+| Organisation | Input | Block |
+|:-------------|:------|:-----:|
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+
+::: {.recorder-box}
+**After the session — recorder checklist:**
+
+- Note any inputs raised but not captured in the room
+- Share recording and raw notes with Martina before end of day
+:::
