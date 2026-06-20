@@ -84,7 +84,7 @@
     "href": "probstatement.html",
     "title": "Hackathon Problem Statements",
     "section": "",
-    "text": "Participation\nOver two days, your team will tackle one of three challenges using real digital trace data from multiple years of flooding in Pakistan — one of the countries most severely affected by climate-related disasters globally. Your work has the potential to directly inform how IOM, FCDO, and other humanitarian partners think about displacement tracking in future flood events.\nEach team selects one problem statement. Your chosen area must be confirmed at the pre-hackathon meeting during the week of 15 June 2026.\nAll teams are required to use at least one of the provided datasets. The Pakistan case study and full data documentation are described in the following sections — read these before confirming your problem statement.\nParticipation is structured around pre-assigned mixed teams. Each team includes at least one domain expert (humanitarian or policy), three technical participants (data or code), and one academic contributor. Effective mixing is deliberate — the strongest hackathon outputs combine operational knowledge with analytical capability.",
+    "text": "Participation\nOver two days, your team will tackle one of three challenges using real digital trace data from multiple years of flooding in Pakistan — one of the countries most severely affected by climate-related disasters globally. Your work has the potential to directly inform how IOM, FCDO, and other humanitarian partners think about displacement tracking in future flood events.\nEach team selects one problem statement. Your chosen area must be confirmed at the pre-hackathon meeting during the week of 15 June 2026.\nAll teams are required to use at least one of the provided datasets. The main mobility data for this hackathon is Meta’s Facebook Population and Movement During Crisis data, made available through the Data for Good programme, alongside IOM DTM survey rounds as a validation benchmark. The Pakistan case study and full data documentation — including access details, spatial boundaries, and contextual layers — are described on the Data page; read this before confirming your problem statement.\nParticipation is structured around pre-assigned mixed teams. Each team includes at least one domain expert (humanitarian or policy), three technical participants (data or code), and one academic contributor. Effective mixing is deliberate — the strongest hackathon outputs combine operational knowledge with analytical capability.",
     "crumbs": [
       "Hackathon Problem Statements"
     ]
@@ -94,7 +94,7 @@
     "href": "probstatement.html#replicate-and-refine",
     "title": "Hackathon Problem Statements",
     "section": "1. Replicate and Refine",
-    "text": "1. Replicate and Refine\nTake the Colombia and Indonesia Digital Traces SitReps presented on Day 1 and adapt the methodology for the Pakistan case.\nThe existing reports provide a strong analytical foundation — your team’s task is to bring fresh thinking on visualisations, validation approaches, or how the displacement story is communicated to a policy audience.\n\nHow do the GPS displacement signals compare with IOM DTM figures for Pakistan?\nWhere does the pipeline perform well, and where does it struggle relative to the Colombia/Indonesia benchmarks?\nWhat refinements to the methodology improve the SitRep’s usefulness for operational decision-making?",
+    "text": "1. Replicate and Refine\nTake the Colombia and Indonesia Digital Traces SitReps presented on Day 1 and adapt the methodology for the Pakistan case.\nThe existing reports provide a strong analytical foundation — your team’s task is to bring fresh thinking on visualisations, validation approaches, or how the displacement story is communicated to a policy audience.\n📦 Optional starting point: a SitRep template (.zip) you can build from if you’d like.\n\nHow do Meta Data for Good estimates compare with IOM DTM figures for Pakistan?\nWhere does the pipeline perform well, and where does it struggle relative to the Colombia/Indonesia benchmarks?\nWhat refinements to the methodology improve the SitRep’s usefulness for operational decision-making?",
     "crumbs": [
       "Hackathon Problem Statements"
     ]
@@ -114,7 +114,7 @@
     "href": "probstatement.html#see-it-coming",
     "title": "Hackathon Problem Statements",
     "section": "3. See It Coming",
-    "text": "3. See It Coming\nMove from response to anticipation. Use historical Pakistan flood data to develop analysis or tooling that helps agencies act before displacement peaks.\nThis is the frontier of humanitarian data work — there is no settled answer, and your team has genuine latitude to explore.\n\nCan GPS mobility signals in the days before a flood peak serve as early warning indicators?\nWhat vulnerability factors (infrastructure, demographics, flood history) best predict where displacement will be most severe?\nHow can anticipatory outputs be structured so that they are actionable within an agency’s existing operational workflow?\n\n\n\n\n\n\n\n\nNote\n\n\n\nOutputs and recognition\nAll participant contributions incorporated into future published works will be acknowledged. Selected policy stakeholders will return on Day 3 afternoon for final team presentations. Judges include IOM operational staff, FCDO policy advisors, and academic reviewers.",
+    "text": "3. See It Coming\nMove from response to anticipation. Use historical Pakistan flood data to develop analysis or tooling that helps agencies act before displacement peaks.\nThis is the frontier of humanitarian data work — there is no settled answer, and your team has genuine latitude to explore.\n\nCan Meta mobility signals in the days before a flood peak serve as early warning indicators?\nWhat vulnerability factors (infrastructure, demographics, flood history) best predict where displacement will be most severe?\nHow can anticipatory outputs be structured so that they are actionable within an agency’s existing operational workflow?\n\n\n\n\n\n\n\n\nNote\n\n\n\nOutputs and recognition\nAll participant contributions incorporated into future published works will be acknowledged. Selected policy stakeholders will return on Day 3 afternoon for final team presentations. Judges include IOM operational staff, FCDO policy advisors, and academic reviewers.",
     "crumbs": [
       "Hackathon Problem Statements"
     ]
@@ -201,7 +201,7 @@
     "href": "researchareas.html",
     "title": "Digital Traces SitReps",
     "section": "",
-    "text": "Colombia SitRep\nA core output of FloodTraces is a set of Digital Traces Situation Reports — concise, policy-oriented documents that translate digital trace pipeline outputs into actionable displacement assessments for humanitarian decision-makers.\nEach SitRep is designed to be:\nEvent: Chocó and north-easter floods, November 2024\nAnalysis window: October–November 2024\nValidation benchmark: OCHA reported displaced population (~28,500 people)\nThe Colombia SitRep applies a difference-in-differences analytical design using GPS mobility data from Veraset. Treated units are admin2 areas within the flood-affected north-easter corridor; control units are comparable unflooded admin2 areas elsewhere in Colombia. Displacement is defined as an absence from the home location of three or more consecutive days, with sensitivity checks.\nKey confounder events within the analysis window — including public holidays, agricultural cycles, and major population movements — are accounted for.\nThe Colombia SitRep will be presented on Day 1 of the policy workshop.",
+    "text": "Indonesia SitRep\nA core output of FloodTraces is a set of Digital Traces Situation Reports — concise, policy-oriented documents that translate digital trace pipeline outputs into actionable displacement assessments for humanitarian decision-makers.\nEach SitRep is designed to be:\nEvent: Multi-province flooding, early 2024\nAnalysis window: February–March 2024\nValidation benchmark: IOM DTM displacement figures\nThe Indonesia SitRep applies a difference-in-differences analytical design using GPS mobility data. Treated units are admin2 areas within the flood-affected north-easter corridor; control units are comparable unflooded admin2 areas elsewhere in Indonesia. The case study centres on the West Sumatra floods and landslides of March 2024, which displaced thousands across several regencies.\nDisplacement is tracked at a daily resolution, producing a sequence of maps that show how the signal builds, peaks, and recedes over the event window — allowing the GPS-derived estimates to be read against the tempo of the disaster rather than as a single static figure.\nThe Indonesia SitRep will be presented on Day 1 of the policy workshop.",
     "crumbs": [
       "Workshop",
       "Digital Traces SitReps"
@@ -211,8 +211,8 @@
     "objectID": "researchareas.html#indonesia-sitrep",
     "href": "researchareas.html#indonesia-sitrep",
     "title": "Digital Traces SitReps",
-    "section": "Indonesia SitRep",
-    "text": "Indonesia SitRep\nEvent: Multi-province flooding, early 2024\nAnalysis window: February–March 2024\nValidation benchmark: IOM DTM displacement figures\nThe Indonesia SitRep follows the same GPS pipeline and DiD framework as Colombia, adapted to Indonesia’s administrative structure and flood geography.\nThe Indonesia SitRep will be presented on Day 1 of the policy workshop.",
+    "section": "",
+    "text": "Warning\n\n\n\nDraft — not published or finished\nThe current Indonesia SitRep is a work-in-progress draft. It has not been published or finalised, and the figures and analysis are subject to change. Please do not cite or circulate.\n📄 Download the draft Indonesia SitRep (PDF)",
     "crumbs": [
       "Workshop",
       "Digital Traces SitReps"
@@ -375,7 +375,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Coming Soon",
+    "text": "Mobility data\nA curated list of tutorials, courses, and software for working with mobility and geographic data in R and Python. Most of the FloodTraces pipeline and SitReps are built in R, but the challenges are language-agnostic — use whatever your team is most comfortable with.\nThese resources deal directly with the kind of digital trace and mobility data used in the hackathon.",
     "crumbs": [
       "Hackathon Problem Statements",
       "Resources"
@@ -411,6 +411,50 @@
     "text": "Join Us\nDay 1 of the policy workshop (22 June) is open to remote attendance. If you work in humanitarian response, policy, or displacement data and would like to join online, we welcome your participation.\nTo register interest or find out more, contact Elisabetta Pietrostefani at e.pietrostefani@liverpool.ac.uk.\nThe hackathon (Days 2–3) is for pre-registered participants only. If you are interested in future editions, please get in touch.",
     "crumbs": [
       "Welcome"
+    ]
+  },
+  {
+    "objectID": "researchareas.html#colombia-sitrep",
+    "href": "researchareas.html#colombia-sitrep",
+    "title": "Digital Traces SitReps",
+    "section": "Colombia SitRep",
+    "text": "Colombia SitRep\nEvent: Chocó and north-easter floods, November 2024\nAnalysis window: October–November 2024\nValidation benchmark: OCHA reported displaced population (~28,500 people)\nThe Colombia SitRep applies a difference-in-differences analytical design using GPS mobility data. Treated units are admin2 areas within the flood-affected north-easter corridor; control units are comparable unflooded admin2 areas elsewhere in Colombia. Displacement is defined as an absence from the home location of three or more consecutive days, with sensitivity checks.\nKey confounder events within the analysis window — including public holidays, agricultural cycles, and major population movements — are accounted for.\n📄 Download link to follow — Colombia SitRep (PDF) (coming soon).\nThe Colombia SitRep will be presented on Day 1 of the policy workshop.",
+    "crumbs": [
+      "Workshop",
+      "Digital Traces SitReps"
+    ]
+  },
+  {
+    "objectID": "resources.html#mobility-data",
+    "href": "resources.html#mobility-data",
+    "title": "Resources",
+    "section": "",
+    "text": "Using Digital Footprint Data to Measure and Monitor Human Mobility — a hands-on R workshop by Francisco Rowe and colleagues covering Meta–Facebook mobility data: temporal patterns, spatial patterns, and the practicalities of working with the data. The most directly relevant starting point for the hackathon.\nmobility — an R package from the COVID-19 Mobility Data Network for parsing travel data, fitting mobility models via Bayesian inference, and simulating mobility patterns. Useful for teams tackling the See It Coming challenge.",
+    "crumbs": [
+      "Hackathon Problem Statements",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#geographic-data-science-r-python",
+    "href": "resources.html#geographic-data-science-r-python",
+    "title": "Resources",
+    "section": "Geographic Data Science (R & Python)",
+    "text": "Geographic Data Science (R & Python)\n\nA course in Geographic Data Science — the ENVS363/563 module from the GDS Lab, with parallel R and Python labs covering spatial data, mapping vector and raster data, points, spatial weights, ESDA, and clustering. A solid foundation if you need to brush up on core methods.\nAdvanced Geovisualisation — the ENVS456 module (web version), focused on Python-based geovisualisation. Particularly relevant to the Make It Interactive challenge.",
+    "crumbs": [
+      "Hackathon Problem Statements",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#python",
+    "href": "resources.html#python",
+    "title": "Resources",
+    "section": "Python",
+    "text": "Python\n\nMapping and Data Visualization with Python — an intermediate full course by Ujaval Gandhi (Spatial Thoughts) covering Matplotlib, GeoPandas, choropleths, basemaps, XArray, interactive maps with Folium and Leafmap, and building dashboards with Streamlit. All notebooks run in Google Colab — no local setup required.\n\n\n\n\n\n\n\n\nTip\n\n\n\nKnow a good resource? Add it here.\nThis page is community-maintained. If you have a tutorial, package, or course that would help other teams, please contribute it: fork the repository, add your resource to this page, and open a pull request. We’ll review and merge useful additions.",
+    "crumbs": [
+      "Hackathon Problem Statements",
+      "Resources"
     ]
   }
 ]
