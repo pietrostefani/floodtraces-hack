@@ -11,29 +11,40 @@ Each SitRep is designed to be:
 
 ------------------------------------------------------------------------
 
-## Colombia SitRep {.unnumbered}
-
-**Event:** Chocó and north-easter floods, November 2024\
-**Analysis window:** October–November 2024\
-**Validation benchmark:** OCHA reported displaced population (\~28,500 people)
-
-The Colombia SitRep applies a **difference-in-differences analytical design** using GPS mobility data from Veraset. Treated units are admin2 areas within the flood-affected north-easter corridor; control units are comparable unflooded admin2 areas elsewhere in Colombia. Displacement is defined as an absence from the home location of **three or more consecutive days**, with sensitivity checks.
-
-Key confounder events within the analysis window — including public holidays, agricultural cycles, and major population movements — are accounted for.
-
-*The Colombia SitRep will be presented on Day 1 of the policy workshop.*
-
-------------------------------------------------------------------------
-
 ## Indonesia SitRep {.unnumbered}
 
 **Event:** Multi-province flooding, early 2024\
 **Analysis window:** February–March 2024\
 **Validation benchmark:** IOM DTM displacement figures
 
-The Indonesia SitRep follows the same GPS pipeline and DiD framework as Colombia, adapted to Indonesia's administrative structure and flood geography.
+The Indonesia SitRep applies a **difference-in-differences analytical design** using GPS mobility data. Treated units are admin2 areas within the flood-affected north-easter corridor; control units are comparable unflooded admin2 areas elsewhere in Indonesia. The case study centres on the West Sumatra floods and landslides of March 2024, which displaced thousands across several regencies.
+
+Displacement is tracked at a daily resolution, producing a sequence of maps that show how the signal builds, peaks, and recedes over the event window — allowing the GPS-derived estimates to be read against the tempo of the disaster rather than as a single static figure.
+
+::: callout-warning
+**Draft — not published or finished**\
+The current Indonesia SitRep is a **work-in-progress draft**. It has **not been published or finalised**, and the figures and analysis are subject to change. Please do not cite or circulate.
+
+📄 [Download the draft Indonesia SitRep (PDF)](https://github.com/pietrostefani/floodtraces-hack/blob/main/sit_reps/sit_rep_indonesia_march204.pdf)
+:::
 
 *The Indonesia SitRep will be presented on Day 1 of the policy workshop.*
+
+------------------------------------------------------------------------
+
+## Colombia SitRep {.unnumbered}
+
+**Event:** Chocó and north-easter floods, November 2024\
+**Analysis window:** October–November 2024\
+**Validation benchmark:** OCHA reported displaced population (\~28,500 people)
+
+The Colombia SitRep applies a **difference-in-differences analytical design** using GPS mobility data. Treated units are admin2 areas within the flood-affected north-easter corridor; control units are comparable unflooded admin2 areas elsewhere in Colombia. Displacement is defined as an absence from the home location of **three or more consecutive days**, with sensitivity checks.
+
+Key confounder events within the analysis window — including public holidays, agricultural cycles, and major population movements — are accounted for.
+
+📄 *Download link to follow — [Colombia SitRep (PDF)]() (coming soon).*
+
+*The Colombia SitRep will be presented on Day 1 of the policy workshop.*
 
 ------------------------------------------------------------------------
 

@@ -1,3 +1,34 @@
 # Resources {.unnumbered}
 
-Coming Soon
+A curated list of tutorials, courses, and software for working with mobility and geographic data in **R** and **Python**. Most of the FloodTraces pipeline and SitReps are built in R, but the challenges are language-agnostic — use whatever your team is most comfortable with.
+
+------------------------------------------------------------------------
+
+## Mobility data {.unnumbered}
+
+These resources deal directly with the kind of digital trace and mobility data used in the hackathon.
+
+-   [**Using Digital Footprint Data to Measure and Monitor Human Mobility**](https://fcorowe.github.io/dfd4mobility/) — a hands-on **R** workshop by Francisco Rowe and colleagues covering Meta–Facebook mobility data: temporal patterns, spatial patterns, and the practicalities of working with the data. The most directly relevant starting point for the hackathon.
+
+-   [**`mobility`**](https://covid-19-mobility-data-network.github.io/mobility/) — an **R** package from the COVID-19 Mobility Data Network for parsing travel data, fitting mobility models via Bayesian inference, and simulating mobility patterns. Useful for teams tackling the *See It Coming* challenge.
+
+------------------------------------------------------------------------
+
+## Geographic Data Science (R & Python) {.unnumbered}
+
+-   [**A course in Geographic Data Science**](https://gdsl-ul.github.io/gds/) — the ENVS363/563 module from the GDS Lab, with parallel **R and Python** labs covering spatial data, mapping vector and raster data, points, spatial weights, ESDA, and clustering. A solid foundation if you need to brush up on core methods.
+
+-   [**Advanced Geovisualisation**](https://github.com/GDSL-UL/wma) — the ENVS456 module ([web version](https://gdsl-ul.github.io/wma/)), focused on **Python**-based geovisualisation. Particularly relevant to the *Make It Interactive* challenge.
+
+------------------------------------------------------------------------
+
+## Python {.unnumbered}
+
+-   [**Mapping and Data Visualization with Python**](https://courses.spatialthoughts.com/python-dataviz.html) — an intermediate full course by Ujaval Gandhi (Spatial Thoughts) covering Matplotlib, GeoPandas, choropleths, basemaps, XArray, interactive maps with Folium and Leafmap, and building dashboards with Streamlit. All notebooks run in Google Colab — no local setup required.
+
+------------------------------------------------------------------------
+
+::: callout-tip
+**Know a good resource? Add it here.**\
+This page is community-maintained. If you have a tutorial, package, or course that would help other teams, please contribute it: **fork** the [repository](https://github.com/pietrostefani/floodtraces-hack), add your resource to this page, and open a **pull request**. We'll review and merge useful additions.
+:::

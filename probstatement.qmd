@@ -4,7 +4,7 @@ Over two days, your team will tackle one of three challenges using real digital 
 
 Each team selects one problem statement. Your chosen area must be confirmed at the pre-hackathon meeting during the week of **15 June 2026**.
 
-All teams are required to use **at least one of the provided datasets**. The Pakistan case study and full data documentation are described in the following sections — read these before confirming your problem statement.
+All teams are required to use **at least one of the provided datasets**. The main mobility data for this hackathon is Meta's [Facebook Population and Movement During Crisis](https://ai.meta.com/ai-for-good/datasets/facebook-population-maps/) data, made available through the Data for Good programme, alongside IOM DTM survey rounds as a validation benchmark. The Pakistan case study and full data documentation — including access details, spatial boundaries, and contextual layers — are described on the [**Data** page](https://pietrostefani.github.io/floodtraces-hack/datasets.html); read this before confirming your problem statement.
 
 ::: callout-note
 Given the limited timeframe, the use of additional datasets beyond those provided is generally discouraged. If you have a specific source in mind, consult the organisers in advance.
@@ -29,7 +29,9 @@ Take the **Colombia and Indonesia Digital Traces SitReps** presented on Day 1 an
 
 The existing reports provide a strong analytical foundation — your team's task is to bring fresh thinking on visualisations, validation approaches, or how the displacement story is communicated to a policy audience.
 
--   How do the GPS displacement signals compare with IOM DTM figures for Pakistan?
+📦 *Optional starting point: a [SitRep template (.zip)](https://github.com/pietrostefani/floodtraces-hack/blob/main/sit_reps/temp.zip) you can build from if you'd like.*
+
+-   How do Meta Data for Good estimates compare with IOM DTM figures for Pakistan?
 -   Where does the pipeline perform well, and where does it struggle relative to the Colombia/Indonesia benchmarks?
 -   What refinements to the methodology improve the SitRep's usefulness for operational decision-making?
 
@@ -53,7 +55,7 @@ Move from **response to anticipation**. Use historical Pakistan flood data to de
 
 This is the frontier of humanitarian data work — there is no settled answer, and your team has genuine latitude to explore.
 
--   Can GPS mobility signals in the days before a flood peak serve as early warning indicators?
+-   Can Meta mobility signals in the days before a flood peak serve as early warning indicators?
 -   What vulnerability factors (infrastructure, demographics, flood history) best predict where displacement will be most severe?
 -   How can anticipatory outputs be structured so that they are actionable within an agency's existing operational workflow?
 
