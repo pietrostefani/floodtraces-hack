@@ -1,0 +1,492 @@
+---
+title: ""
+subtitle: ""
+date: today
+date-format: "D MMMM YYYY"
+lang: en
+bibliography: references.bib
+citeproc: false
+format:
+  typst:
+    toc: false
+    font-paths:
+      - assets/fonts/source-sans3
+      - assets/fonts/source-serif4
+    template-partials:
+      - styles/page.typ
+      - styles/typst-template.typ
+    include-in-header: styles/sitrep.typ
+execute:
+  echo: false
+  warning: false
+  message: false
+editor: visual
+---
+
+```{=typst}
+// ── PAGE 1 ────────────────────────────────────────────────────────────
+
+// Header: logos + title bar
+#grid(
+  columns: (1fr, auto, auto),
+  gutter: 8pt,
+  align: (left + horizon, right + horizon, right + horizon),
+  [
+#text(size: 12pt, fill: rgb("#5f7078"))[#upper[Reporting period: DD Month YYYY to DD Month YYYY]]
+#v(1pt)
+
+#block(
+  below: 5pt,
+  fill: rgb("#e3e5e7"),
+  inset: (x: 10pt, y: 5pt),
+  radius: 2pt,
+)[
+  #set text(size: 15pt, weight: "bold", fill: rgb("#334047"))
+  #upper[SITUATION REPORT: Lorem Ipsum | Dolor Sit] \
+  #upper[DIGITAL TRACE DATA | EXPERIMENTAL]
+]
+
+  ],
+  [#image("assets/gds_logo_1.png", width: 82pt)],
+  [#image("assets/uol_logo.png", width: 90pt)],
+)
+
+#v(1pt)
+#text(size: 10pt, fill: rgb("#5f7078"), stretch: 85%)[
+  Lorem Ipsum, Dolor Sit, Amet Consectetur, Adipiscing Elit | #emph[Lorem Ipsum Institute, Dolor University]
+]
+#v(1pt)
+#line(length: 100%, stroke: 1pt + rgb("#0D2B4E"))
+#v(1pt)
+
+// Main two-column layout: figure + trigger left, sidebar right (2 boxes)
+#grid(
+  columns: (2fr, 1fr),
+  gutter: 6pt,
+  align: (top + left, top + left),
+
+  // LEFT: main figure + caption + event trigger
+  [
+    // ── FIGURE 1 PLACEHOLDER — replace with your summary map ──
+    #block(
+      width: 100%,
+      height: 7cm,
+      fill: rgb("#f0f2f4"),
+      stroke: (paint: rgb("#aabbc4"), thickness: 0.8pt, dash: "dashed"),
+      radius: 3pt,
+    )[
+      #align(center + horizon)[
+        #text(size: 11pt, fill: rgb("#8a97a0"), style: "italic")[
+          Figure 1 — main summary map \ (insert your figure here)
+        ]
+      ]
+    ]
+    #v(-4pt)
+    #text(size: 7.5pt, fill: rgb("#5f7078"), style: "italic")[
+      Figure 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    ]
+
+    #v(3pt)
+
+    // Event Trigger — under the figure
+    #block(
+      width: 98%,
+      fill: rgb("#fff5f5"),
+      stroke: (
+        left: 3pt + rgb("#8B0000"),
+        top: 0.45pt + rgb("#8B0000"),
+        right: 0.45pt + rgb("#8B0000"),
+        bottom: 0.45pt + rgb("#8B0000"),
+      ),
+      radius: 2pt,
+      inset: (x: 8pt, y: 6pt),
+    )[
+      #text(size: 10.5pt, weight: "bold", fill: rgb("#0D2B4E"))[Event Trigger]
+      #v(1pt)
+      #set text(size: 9.5pt, fill: rgb("#132833"))
+      - #strong[Lorem ipsum dolor:] sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. \
+      - #strong[Ut enim ad minim:] veniam quis nostrud exercitation ullamco laboris nisi ut aliquip.
+    ]
+  ],
+
+  // RIGHT: two stacked boxes (headline + insights)
+  [
+    // Headline figure
+    #block(
+      width: 100%,
+      fill: rgb("#0D2B4E"),
+      stroke: 0.5pt + rgb("#0D2B4E"),
+      radius: 3pt,
+      inset: (x: 8pt, y: 10pt),
+    )[
+      #align(center)[
+        #text(size: 9.5pt, weight: "bold", fill: rgb("#a8c4d4"))[#upper[Lorem ipsum · dolor sit YYYY]]
+        #v(1pt)
+        #block(spacing: 10pt)[
+          #text(size: 25pt, weight: "bold", fill: rgb("#ffffff"))[\~00,000]
+        ]
+        #v(1pt)
+        #text(size: 9.5pt, fill: rgb("#a8c4d4"))[lorem ipsum dolor · sit amet data]
+        #v(0pt)
+        #line(length: 100%, stroke: 0.4pt + rgb("#a8c4d4"))
+        #v(1pt)
+        #text(size: 9pt, fill: rgb("#a8c4d4"))[#strong[00,000] lorem · #strong[00+] ipsum · #text(size: 8.5pt, fill: rgb("#6a8fa8"))[Source, YYYY]]
+        #v(2pt)
+        #text(size: 8pt, fill: rgb("#6a8fa8"), style: "italic")[Lorem ipsum dolor sit amet (Figure 1).]
+      ]
+    ]
+
+    #v(-4pt)
+
+    // Insights
+    #block(
+      width: 100%,
+      fill: rgb("#f0f9ff"),
+      stroke: (
+        left: 3pt + rgb("#0D2B4E"),
+        top: 0.45pt + rgb("#0D2B4E"),
+        right: 0.45pt + rgb("#0D2B4E"),
+        bottom: 0.45pt + rgb("#0D2B4E"),
+      ),
+      radius: 2pt,
+      inset: (x: 8pt, y: 8pt),
+    )[
+      #text(size: 10pt, weight: "bold", fill: rgb("#0D2B4E"))[Insights]
+      #v(0pt)
+      #set text(size: 9.5pt, fill: rgb("#132833"))
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua #cite(<iradukunda2025estimating>).
+#v(0pt)
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris — #strong[duis aute irure dolor] in reprehenderit. Key advantages are #strong[lorem ipsum] and #strong[dolor sit].
+      #v(0pt)
+      - #strong[Lorem ipsum dolor]: sit amet consectetur adipiscing elit sed do eiusmod.
+      #v(0pt)
+      - #strong[Excepteur sint occaecat]: cupidatat non proident sunt in culpa qui officia.
+      #v(0pt)
+      - #strong[Sed ut perspiciatis]: unde omnis iste natus error sit voluptatem accusantium.
+      #v(0pt)
+      - #strong[Nemo enim ipsam]: voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+      #v(0pt)
+      - Neque porro quisquam est qui dolorem ipsum quia dolor sit amet by #strong[DD Month].
+    ]
+  ],
+)
+```
+```{=typst}
+// ── PAGE 2 ────────────────────────────────────────────────────────────
+
+// Header
+#grid(
+  columns: (1fr, auto, auto),
+  gutter: 5pt,
+  align: (left + horizon, right + horizon, right + horizon),
+  [
+    #set text(fill: rgb("#0D2B4E"))
+    #text(size: 13pt, weight: "bold")[Situation Report] \
+    #text(size: 11pt)[Lorem Ipsum, Dolor: Sit Amet — Month YYYY] \
+    #text(size: 8.5pt, fill: rgb("#5f7078"))[#upper[Reporting period: DD–DD Month YYYY]]
+  ]
+)
+
+#v(2pt)
+#line(length: 100%, stroke: 1pt + rgb("#0D2B4E"))
+#v(8pt)
+
+// Two-column: figure left, context right
+#grid(
+  columns: (1.2fr, 0.8fr),
+  gutter: 14pt,
+  align: (top + left, top + left),
+
+  // LEFT: context figure
+  [
+    // ── FIGURE 2 PLACEHOLDER — replace with your context map ──
+    #block(
+      width: 100%,
+      height: 8.5cm,
+      fill: rgb("#f0f2f4"),
+      stroke: (paint: rgb("#aabbc4"), thickness: 0.8pt, dash: "dashed"),
+      radius: 3pt,
+    )[
+      #align(center + horizon)[
+        #text(size: 11pt, fill: rgb("#8a97a0"), style: "italic")[
+          Figure 2 — context map \ (insert your figure here)
+        ]
+      ]
+    ]
+    #v(3pt)
+    #text(size: 7.5pt, fill: rgb("#5f7078"), style: "italic")[
+      Figure 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       #v(0pt)
+      #set text(size: 7pt, fill: rgb("#5f7078"))
+    - #strong[Lorem:] ipsum dolor sit amet
+    - #strong[Dolor:] consectetur adipiscing elit sed
+    - #strong[Sit amet:] eiusmod tempor incididunt ut labore
+    ]
+  ],
+
+  // RIGHT: three stacked boxes
+  [
+    // Box 1 — Context
+    #block(
+      width: 100%,
+      fill: rgb("#f0f9ff"),
+      stroke: (
+        left: 3pt + rgb("#0D2B4E"),
+        top: 0.45pt + rgb("#0D2B4E"),
+        right: 0.45pt + rgb("#0D2B4E"),
+        bottom: 0.45pt + rgb("#0D2B4E"),
+      ),
+      radius: 2pt,
+      inset: (x: 6pt, y: 6pt),
+    )[
+      #text(size: 9pt, weight: "bold", fill: rgb("#0D2B4E"))[Context]
+      #v(2pt)
+      #set text(size: 9pt, fill: rgb("#132833"))
+      - Lorem ipsum dolor sit amet, consectetur #strong[adipiscing elit], sed do eiusmod tempor incididunt ut labore.
+      #v(0pt)
+      - Ut enim ad minim veniam, quis nostrud #strong[exercitation ullamco] laboris nisi ut aliquip ex ea.
+      #v(0pt)
+      - Duis aute irure dolor in reprehenderit in voluptate velit #strong[esse cillum dolore].
+      #v(0pt)
+      - Excepteur sint occaecat: \~#strong[[ — ]] lorem ipsum dolor and \~#strong[[ — ]] sit amet consectetur.
+    ]
+
+    #v(0pt)
+
+    // Box 2 — Warning gap
+    #block(
+      width: 100%,
+      fill: rgb("#f0f9ff"),
+      stroke: (
+        left: 3pt + rgb("#0D2B4E"),
+        top: 0.45pt + rgb("#0D2B4E"),
+        right: 0.45pt + rgb("#0D2B4E"),
+        bottom: 0.45pt + rgb("#0D2B4E"),
+      ),
+      radius: 2pt,
+      inset: (x: 6pt, y: 6pt),
+    )[
+      #text(size: 9pt, weight: "bold", fill: rgb("#0D2B4E"))[Warning gap]
+      #v(4pt)
+      #set text(size: 9pt, fill: rgb("#132833"))
+      - Lorem ipsum dolor sit amet (#strong[consectetur adipiscing elit]) — sed do eiusmod tempor incididunt.
+      #v(0pt)
+      - Ut enim ad minim veniam flagged #strong[000 communities]; alerts in #strong[00] and #strong[00] dolor sit.
+      #v(0pt)
+      - #strong[Duis aute irure dolor] in reprehenderit — lorem on DD Month; ipsum DD–DD Month.
+      #v(4pt)
+      #set text(size: 8.5pt, fill: rgb("#5f7078"), style: "italic")
+      Lorem ipsum: dolor, sit, amet and consectetur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.
+    ]
+
+    #v(2pt)
+
+    // Box 3 — Limitations (amber)
+    #block(
+      width: 100%,
+      fill: rgb("#fdf6e8"),
+      stroke: (
+        left: 3pt + rgb("#b8860b"),
+        top: 0.45pt + rgb("#b8860b"),
+        right: 0.45pt + rgb("#b8860b"),
+        bottom: 0.45pt + rgb("#b8860b"),
+      ),
+      radius: 2pt,
+      inset: (x: 6pt, y: 6pt),
+    )[
+      #text(size: 9pt, weight: "bold", fill: rgb("#8b5e00"))[Limitations]
+      #v(4pt)
+      #set text(size: 9pt, fill: rgb("#132833"))
+      - #strong[Lorem ipsum:] dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.
+      #v(1pt)
+      - #strong[Dolor sit amet:] consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+      #v(1pt)
+      - #strong[Ut enim ad minim:] veniam quis nostrud exercitation ullamco laboris nisi.
+      #v(3pt)
+      Lorem ipsum dolor sit amet #link("https://example.org")[(Source, YYYY)]. #emph[Excepteur sint occaecat cupidatat non proident before interpreting these findings.]
+    ]
+  ],
+)
+```
+```{=typst}
+// ── PAGE 3 ────────────────────────────────────────────────────────────
+// Header
+#grid(
+  columns: (1fr, auto, auto),
+  gutter: 5pt,
+  align: (left + horizon, right + horizon, right + horizon),
+  [
+    #set text(fill: rgb("#0D2B4E"))
+    #text(size: 13pt, weight: "bold")[Situation Report] \
+    #text(size: 11pt)[Lorem Ipsum, Dolor: Sit Amet — Month YYYY] \
+    #text(size: 8.5pt, fill: rgb("#5f7078"))[#upper[Reporting period: DD–DD Month YYYY]]
+  ],
+)
+
+#v(2pt)
+#line(length: 100%, stroke: 1pt + rgb("#0D2B4E"))
+#v(0pt)
+
+// Time-series (left) + methodology boxes (right)
+#grid(
+  columns: (1.5fr, 1fr),
+  gutter: 10pt,
+  align: (top + left, top + left),
+
+  // LEFT: time-series figure
+  [
+    #text(size: 9pt, weight: "bold", fill: rgb("#0D2B4E"))[Time-series analysis]
+    #v(4pt)
+    // ── FIGURE 3 PLACEHOLDER — replace with your time-series maps ──
+    #block(
+      width: 100%,
+      height: 7cm,
+      fill: rgb("#f0f2f4"),
+      stroke: (paint: rgb("#aabbc4"), thickness: 0.8pt, dash: "dashed"),
+      radius: 3pt,
+    )[
+      #align(center + horizon)[
+        #text(size: 11pt, fill: rgb("#8a97a0"), style: "italic")[
+          Figure 3 — time-series / daily maps \ (insert your figure here)
+        ]
+      ]
+    ]
+    #v(3pt)
+    #text(size: 7.5pt, fill: rgb("#5f7078"), style: "italic")[
+      Figure 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    ]
+  ],
+
+  // RIGHT: Data Sources + Methodology + Table (stacked)
+  [
+    #block(
+      width: 100%,
+      fill: rgb("#f0f9ff"),
+      stroke: (
+        left: 3pt + rgb("#0D2B4E"),
+        top: 0.45pt + rgb("#0D2B4E"),
+        right: 0.45pt + rgb("#0D2B4E"),
+        bottom: 0.45pt + rgb("#0D2B4E"),
+      ),
+      radius: 2pt,
+      inset: (x: 6pt, y: 5pt),
+    )[
+      #text(size: 8.5pt, weight: "bold", fill: rgb("#0D2B4E"))[Data Sources]
+      #v(3pt)
+      #set text(size: 8pt, fill: rgb("#132833"))
+      #strong[Lorem ipsum.] Dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      #v(2pt)
+      #strong[Dolor sit.] Amet consectetur adipiscing elit sed do eiusmod.
+      #v(2pt)
+      #strong[Consectetur.] [ Lorem | Ipsum | Dolor | ].
+      #v(3pt)
+      #text(size: 7pt, fill: rgb("#5f7078"))[Lorem ipsum dolor sit amet; figures are indicative of patterns, not precise counts.]
+    ]
+
+    #v(0pt)
+
+    #block(
+      width: 100%,
+      fill: rgb("#f0f9ff"),
+      stroke: (
+        left: 3pt + rgb("#0D2B4E"),
+        top: 0.45pt + rgb("#0D2B4E"),
+        right: 0.45pt + rgb("#0D2B4E"),
+        bottom: 0.45pt + rgb("#0D2B4E"),
+      ),
+      radius: 2pt,
+      inset: (x: 6pt, y: 5pt),
+    )[
+      #text(size: 8.5pt, weight: "bold", fill: rgb("#0D2B4E"))[Methodology]
+      #v(3pt)
+      #set text(size: 8pt, fill: rgb("#132833"))
+      #strong[Step 1.] Lorem ipsum dolor sit amet consectetur (DD–DD Month YYYY).
+      #v(2pt)
+      #strong[Step 2.] Adipiscing elit sed do eiusmod tempor incididunt ut labore (DD–DD Month YYYY).
+      #v(2pt)
+      #strong[Step 3.] Ut enim ad minim veniam; quis nostrud exercitation.
+    ]
+
+     #v(0pt)
+
+    #set text(size: 8pt, weight: "regular", fill: rgb("#132833"))
+    #table(
+      columns: (1.4fr, 0.7fr, 1.9fr),
+      align: (left, center, left),
+      inset: (x: 5pt, y: 3pt),
+      stroke: (x: none, y: 0.4pt + rgb("#c4ced4")),
+      fill: (col, row) => if row == 0 { rgb("#0B1A2E") } else if calc.odd(row) { rgb("#f4f6f7") } else { white },
+      table.header(
+        [#text(weight: "bold", fill: white)[Indicator]],
+        [#text(weight: "bold", fill: white)[Available]],
+        [#text(weight: "bold", fill: white)[Use in this report]],
+      ),
+      [Lorem ipsum data], [#text(fill: rgb("#2E7D32"), weight: "bold")[YES]], [Dolor sit amet consectetur],
+      [Dolor sit data], [#text(fill: rgb("#2E7D32"), weight: "bold")[YES]], [Adipiscing elit sed do],
+      [Consectetur source], [#text(fill: rgb("#B8860B"), weight: "bold")[PARTIAL]], [Eiusmod tempor; not used],
+      [Adipiscing requests], [#text(fill: rgb("#2E7D32"), weight: "bold")[YES]], [Not used in this report],
+      [Tempor activity], [#text(fill: rgb("#B8860B"), weight: "bold")[PARTIAL]], [Not used in this report],
+      [Incididunt pageviews], [#text(fill: rgb("#B8860B"), weight: "bold")[PARTIAL]], [Not used in this report],
+      [Labore lights], [#text(fill: rgb("#B8860B"), weight: "bold")[PARTIAL]], [Not used in this report],
+      [Dolore estimates], [#text(fill: rgb("#C0392B"), weight: "bold")[NO]], [Not used in this report],
+    )
+    #v(3pt)
+    #text(size: 7.5pt, fill: rgb("#5f7078"), style: "italic")[
+      Table 1. Lorem ipsum dolor sit amet. Sources marked PARTIAL are available but with limited coverage or resolution.
+    ]
+  ],   // ← closes the RIGHT column cell
+)     // ← closes the #grid
+```
+::: {.content-visible when-format="typst"}
+```{=typst}
+#grid(
+  columns: (1fr, auto, 1fr, auto, 1fr, auto, 1fr, auto, 1fr),
+  gutter: 4pt,
+  align: center + horizon,
+
+  [
+    #rect(width: 100%, radius: 3pt, inset: 6pt, fill: rgb("#f5f7f8"), stroke: 0.5pt + rgb("#aabbc4"))[
+      #set text(size: 7pt, fill: rgb("#132833"))
+      #strong[Lorem ipsum] #linebreak() dolor sit amet #linebreak() #strong[consectetur] #linebreak() adipiscing elit
+    ]
+  ],
+  [#text(size: 9pt, fill: rgb("#000000"))[→]],
+  [
+    #rect(width: 100%, radius: 3pt, inset: 6pt, fill: rgb("#e8f4f6"), stroke: 0.5pt + rgb("#8ab8c2"))[
+      #set text(size: 7pt, fill: rgb("#0B1A2E"))
+      #strong[Step one] #linebreak() DD–DD Month YYYY
+    ]
+  ],
+  [#text(size: 9pt, fill: rgb("#000000"))[→]],
+  [
+    #rect(width: 100%, radius: 3pt, inset: 6pt, fill: rgb("#e8f4f6"), stroke: 0.5pt + rgb("#8ab8c2"))[
+      #set text(size: 7pt, fill: rgb("#0B1A2E"))
+      #strong[Step two] #linebreak() DD–DD Month YYYY
+    ]
+  ],
+  [#text(size: 9pt, fill: rgb("#000000"))[→]],
+  [
+    #rect(width: 100%, radius: 3pt, inset: 6pt, fill: rgb("#e8f4f6"), stroke: 0.5pt + rgb("#8ab8c2"))[
+      #set text(size: 7pt, fill: rgb("#0B1A2E"))
+      #strong[Step three] #linebreak() lorem vs. ipsum
+    ]
+  ],
+  [#text(size: 9pt, fill: rgb("#000000"))[→]],
+  [
+    #rect(width: 100%, radius: 3pt, inset: 6pt, fill: rgb("#2a4a6b"), stroke: 0.5pt + rgb("#1A3A5C"))[
+      #set text(size: 7pt, fill: rgb("#ffffff"))
+      #strong[Output] #linebreak() Lorem ipsum index
+    ]
+  ],
+)
+```
+:::
+
+::: {.content-visible when-format="typst"}
+```{=typst}
+#v(0pt)
+#show bibliography: set text(size: 6pt, fill: rgb("#5f7078"), font: "Source Sans 3")
+#set bibliography(style: "ieee", title: text(size: 7pt, fill: rgb("#5f7078"), font: "Source Sans 3")[Bibliography])
+```
+:::
