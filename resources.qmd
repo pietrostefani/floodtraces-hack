@@ -12,6 +12,10 @@ These resources deal directly with the kind of digital trace and mobility data u
 
 -   [**`mobility`**](https://covid-19-mobility-data-network.github.io/mobility/) — an **R** package from the COVID-19 Mobility Data Network for parsing travel data, fitting mobility models via Bayesian inference, and simulating mobility patterns. Useful for teams tackling the *See It Coming* challenge.
 
+-   [**`debiasR`**](https://de-bias.github.io/debiasR/) — an **R** package from the DEBIAS project (Francisco Rowe and Carmen Cabrera, University of Liverpool) for assessing and correcting population representation bias in digital trace data. It measures coverage and representativeness bias, adjusts biased origin–destination flows using deterministic and Bayesian multilevel methods, and validates adjusted flows against benchmark data. Directly relevant to the kind of mobility data used in the hackathon.
+
+    <img src="img/logo-debias.jpg" width="150" alt="DEBIAS logo" style="margin-top: 0.5rem;"/>
+
 ------------------------------------------------------------------------
 
 ## Cortex Code (CoCo) AI tooling {.unnumbered}
@@ -36,6 +40,8 @@ There are two ways to use it: a **command-line tool** and the **CoCo desktop app
 -   [**A course in Geographic Data Science**](https://gdsl-ul.github.io/gds/) — the ENVS363/563 module from the GDS Lab, with parallel **R and Python** labs covering spatial data, mapping vector and raster data, points, spatial weights, ESDA, and clustering. A solid foundation if you need to brush up on core methods.
 
 -   [**Advanced Geovisualisation**](https://github.com/GDSL-UL/wma) — the ENVS456 module ([web version](https://gdsl-ul.github.io/wma/)), focused on **Python**-based geovisualisation. Particularly relevant to the *Make It Interactive* challenge.
+
+-   [**Spatial Modelling for Data Scientists**](https://gdsl-ul.github.io/san/) — an **R**-based course from the GDS Lab (Francisco Rowe and Dani Arribas-Bel) covering spatial data wrangling, point pattern analysis, spatial interaction (flow) modelling, spatial econometrics, multilevel modelling, geographically weighted regression, and spatio-temporal analysis. Useful for teams building statistical models of displacement.
 
 ------------------------------------------------------------------------
 
