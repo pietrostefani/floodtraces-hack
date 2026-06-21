@@ -451,7 +451,7 @@
     "href": "resources.html#mobility-data",
     "title": "Resources",
     "section": "",
-    "text": "Using Digital Footprint Data to Measure and Monitor Human Mobility — a hands-on R workshop by Francisco Rowe and colleagues covering Meta–Facebook mobility data: temporal patterns, spatial patterns, and the practicalities of working with the data. The most directly relevant starting point for the hackathon.\nmobility — an R package from the COVID-19 Mobility Data Network for parsing travel data, fitting mobility models via Bayesian inference, and simulating mobility patterns. Useful for teams tackling the See It Coming challenge.",
+    "text": "Using Digital Footprint Data to Measure and Monitor Human Mobility — a hands-on R workshop by Francisco Rowe and colleagues covering Meta–Facebook mobility data: temporal patterns, spatial patterns, and the practicalities of working with the data. The most directly relevant starting point for the hackathon.\nmobility — an R package from the COVID-19 Mobility Data Network for parsing travel data, fitting mobility models via Bayesian inference, and simulating mobility patterns. Useful for teams tackling the See It Coming challenge.\ndebiasR — an R package from the DEBIAS project (Francisco Rowe and Carmen Cabrera, University of Liverpool) for assessing and correcting population representation bias in digital trace data. It measures coverage and representativeness bias, adjusts biased origin–destination flows using deterministic and Bayesian multilevel methods, and validates adjusted flows against benchmark data. Directly relevant to the kind of mobility data used in the hackathon.",
     "crumbs": [
       "Hackathon Problem Statements",
       "Resources"
@@ -462,7 +462,7 @@
     "href": "resources.html#geographic-data-science-r-python",
     "title": "Resources",
     "section": "Geographic Data Science (R & Python)",
-    "text": "Geographic Data Science (R & Python)\n\nA course in Geographic Data Science — the ENVS363/563 module from the GDS Lab, with parallel R and Python labs covering spatial data, mapping vector and raster data, points, spatial weights, ESDA, and clustering. A solid foundation if you need to brush up on core methods.\nAdvanced Geovisualisation — the ENVS456 module (web version), focused on Python-based geovisualisation. Particularly relevant to the Make It Interactive challenge.",
+    "text": "Geographic Data Science (R & Python)\n\nA course in Geographic Data Science — the ENVS363/563 module from the GDS Lab, with parallel R and Python labs covering spatial data, mapping vector and raster data, points, spatial weights, ESDA, and clustering. A solid foundation if you need to brush up on core methods.\nAdvanced Geovisualisation — the ENVS456 module (web version), focused on Python-based geovisualisation. Particularly relevant to the Make It Interactive challenge.\nSpatial Modelling for Data Scientists — an R-based course from the GDS Lab (Francisco Rowe and Dani Arribas-Bel) covering spatial data wrangling, point pattern analysis, spatial interaction (flow) modelling, spatial econometrics, multilevel modelling, geographically weighted regression, and spatio-temporal analysis. Useful for teams building statistical models of displacement.",
     "crumbs": [
       "Hackathon Problem Statements",
       "Resources"
