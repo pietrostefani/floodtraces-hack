@@ -31,7 +31,7 @@ The **22–24 June 2026** event at the London School of Economic (LSE) combines 
 
 | Day | Format | Audience | Focus |
 |---|---|---|---|
-| [**Day 1 — 22 June**](workshop.qmd) | Policy Workshop | Senior policy, FCDO, IOM, NGOs + hackathon participants | Colombia & Indonesia SitRep presentations; structured feedback; methods clinic; data walkthrough |
+| [**Day 1 — 22 June**](workshop.qmd) | Policy Workshop | Senior policy, FCDO, IOM, NGOs + hackathon participants | Indonesia & Colombia SitRep presentations; structured feedback; methods clinic; data walkthrough |
 | [**Days 2–3 — 23–24 June**](workshop.qmd) | Hackathon | Technical teams + returning policy stakeholders (Day 3 afternoon) | Pakistan case study: three problem statements across data, interaction, and anticipatory action |
 
 ---
@@ -50,8 +50,8 @@ The hackathon (Days 2–3) is for pre-registered participants only. If you are i
 
 | Country | Event | Analysis Window | Role |
 |---|---|---|---|
-| [**Colombia**](researchareas.qmd) | Chocó floods & beyond | Oct–Nov 2024 | SitRep — presented Day 1 |
-| [**Indonesia**](researchareas.qmd) | Multi-province flooding | Feb–Mar 2024 | SitRep — presented Day 1 |
+| [**Indonesia**](researchareas.qmd) | West Sumatra floods & landslides | Feb–Mar 2024 | SitRep — presented Day 1 |
+| [**Colombia**](researchareas.qmd) | Floods & conflict | Oct–Nov 2024 | SitRep — presented Day 1 |
 | [**Pakistan**](researchareas.qmd) | Monsoon floods | Aug–Oct 2022 | Hackathon case study |
 | [**Iran**](https://reliefweb.int/report/iran-islamic-republic/situation-report-iran-conflict-digital-trace-data-analysis-experimental-reporting-period-28th-february-2026-19th-march-2026) | Conflict displacement | Feb–Mar 2026 | Example SitRep — wider methodology |
 
@@ -60,7 +60,6 @@ The hackathon (Days 2–3) is for pre-registered participants only. If you are i
 ## Contact {.unnumbered}
 
 > **Dr Elisabetta Pietrostefani** — e.pietrostefani \[at\] liverpool.ac.uk  
-> Lecturer in Geographic Data Science, University of Liverpool
 
 > **Dr Martina Pardy** — m.l.pardy \[at\] liverpool.ac.uk
 

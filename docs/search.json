@@ -14,7 +14,7 @@
     "href": "index.html#contact",
     "title": "FloodTraces",
     "section": "Contact",
-    "text": "Contact\n\nDr Elisabetta Pietrostefani — e.pietrostefani [at] liverpool.ac.uk\nLecturer in Geographic Data Science, University of Liverpool\n\n\nDr Martina Pardy — m.l.pardy [at] liverpool.ac.uk\n\n\nMatt Mason — matt.mason [at] liverpool.ac.uk\n\n\nAndrea Nasuto — andrea.nasuto [at] liverpool.ac.uk\n\n\nProf Francisco Rowe — fcorowe [at] liverpool.ac.uk\n\nThe website is licensed under the Attribution-NonCommercial-NoDerivatives 4.0 International.",
+    "text": "Contact\n\nDr Elisabetta Pietrostefani — e.pietrostefani [at] liverpool.ac.uk\n\n\nDr Martina Pardy — m.l.pardy [at] liverpool.ac.uk\n\n\nMatt Mason — matt.mason [at] liverpool.ac.uk\n\n\nAndrea Nasuto — andrea.nasuto [at] liverpool.ac.uk\n\n\nProf Francisco Rowe — fcorowe [at] liverpool.ac.uk\n\nThe website is licensed under the Attribution-NonCommercial-NoDerivatives 4.0 International.",
     "crumbs": [
       "Welcome"
     ]
@@ -24,7 +24,7 @@
     "href": "overview.html",
     "title": "Overview",
     "section": "",
-    "text": "Case Studies\nThe global challenge of internal displacement, exacerbated by climate-induced natural hazards, demands more timely and granular data than traditional survey methods alone can provide. In 2024, floods affected an estimated 40 million people worldwide — making them the most common disaster type globally — yet decision-makers in the critical first days after an event often face a near-total absence of reliable displacement figures.\nFloodTraces addresses this gap by developing a replicable data pipeline that integrates digital trace data — GPS mobility records, social media signals, satellite imagery, and Cloudflare connectivity estimates — with traditional sources such as IOM’s Displacement Tracking Matrix surveys. The goal is not to replace established methods, but to triangulate and augment them: producing estimates that are faster, spatially finer, and available earlier than field surveys alone can deliver.\nThe project makes three complementary contributions:\nTimely insights when traditional data are scarce.\nA replicable pipeline that delivers actionable displacement information in the critical first weeks after a flood, before survey operations are fully operational.\nTriangulation and validation of traditional sources.\nCross-referencing GPS signals and other digital traces with IOM DTM data to strengthen the reliability and coverage of displacement assessments.\nAnticipatory action in recurrent flood contexts.\nSpatially and temporally granular data to inform preparedness in areas with a known history of repeated flooding.\nAs a proof of concept, the pipeline is applied to three flood events:\nEach case study produces a Digital Traces Situation Report (SitRep) — a concise, policy-oriented document showing displacement estimates derived from the GPS pipeline, key validation against OCHA and IOM benchmarks, and a brief summary of data limitations. The Colombia and Indonesia SitReps are presented at the Day 1 policy workshop; the Pakistan case forms the basis for the hackathon.",
+    "text": "Case Studies\nThe global challenge of internal displacement, exacerbated by climate-induced natural hazards, demands more timely and granular data than traditional survey methods alone can provide. In 2024, floods affected an estimated 40 million people worldwide — making them the most common disaster type globally — yet decision-makers in the critical first days after an event often face a near-total absence of reliable displacement figures.\nFloodTraces addresses this gap by developing a replicable data pipeline that integrates digital trace data — GPS mobility records, social media signals, satellite imagery, and Cloudflare connectivity estimates — with traditional sources such as IOM’s Displacement Tracking Matrix surveys. The goal is not to replace established methods, but to triangulate and augment them: producing estimates that are faster, spatially finer, and available earlier than field surveys alone can deliver.\nThe project makes three complementary contributions:\nTimely insights when traditional data are scarce.\nA replicable pipeline that delivers actionable displacement information in the critical first weeks after a flood, before survey operations are fully operational.\nTriangulation and validation of traditional sources.\nCross-referencing GPS signals and other digital traces with IOM DTM data to strengthen the reliability and coverage of displacement assessments.\nAnticipatory action in recurrent flood contexts.\nSpatially and temporally granular data to inform preparedness in areas with a known history of repeated flooding.\nAs a proof of concept, the pipeline is applied to three flood events:\nEach case study produces a Digital Traces Situation Report (SitRep) — a concise, policy-oriented document showing displacement estimates derived from the GPS pipeline, key validation against OCHA and IOM benchmarks, and a brief summary of data limitations. The Indonesia and Colombia SitReps are presented at the Day 1 policy workshop; the Pakistan case forms the basis for the hackathon.",
     "crumbs": [
       "Overview"
     ]
@@ -34,7 +34,7 @@
     "href": "overview.html#case-studies",
     "title": "Overview",
     "section": "",
-    "text": "Country\nEvent\nAnalysis Window\n\n\n\n\nColombia\nChocó and north-western corridor floods\nOctober–November 2024\n\n\nIndonesia\nMulti-province flooding\nFebruary–March 2024\n\n\nPakistan\nSeasonal monsoon floods\n2022 event; historical analysis",
+    "text": "Country\nEvent\nAnalysis Window\n\n\n\n\nIndonesia\nWest Sumatra floods & landslides\nFebruary–March 2024\n\n\nColombia\nFloods & conflict (flood signal hard to isolate)\nOctober–November 2024\n\n\nPakistan\nSeasonal monsoon floods\n2022 event; historical analysis",
     "crumbs": [
       "Overview"
     ]
@@ -44,7 +44,7 @@
     "href": "overview.html#partners",
     "title": "Overview",
     "section": "Partners",
-    "text": "Partners\nThis work is led by the Geographic Data Science Lab at the University of Liverpool, and supported by Imago: Data Service for Imagery conducted in close partnership with:\n\nFCDO (Foreign, Commonwealth & Development Office) — primary funder and policy partner\nIOM Displacement Tracking Matrix (DTM) — operational data partner and validation benchmark",
+    "text": "Partners\nThis work is led by the Geographic Data Science Lab at the University of Liverpool, and supported by Imago: Data Service for Imagery conducted in close partnership with:\n\nFCDO (Foreign, Commonwealth & Development Office) — policy partner and advisory role, including the Humanitarian and Stabilisation Operations Team (HSOT). FCDO is not a funder of this work.\nIOM Displacement Tracking Matrix (DTM) — operational data partner and validation benchmark",
     "crumbs": [
       "Overview"
     ]
@@ -295,7 +295,7 @@
     "href": "index.html#event-overview",
     "title": "FloodTraces",
     "section": "Event Overview",
-    "text": "Event Overview\nThe 22–24 June 2026 event at the London School of Economic (LSE) combines a policy workshop and a two-day hackathon. Click any row for details.\n\n\n\nDay\nFormat\nAudience\nFocus\n\n\n\n\nDay 1 — 22 June\nPolicy Workshop\nSenior policy, FCDO, IOM, NGOs + hackathon participants\nColombia & Indonesia SitRep presentations; structured feedback; methods clinic; data walkthrough\n\n\nDays 2–3 — 23–24 June\nHackathon\nTechnical teams + returning policy stakeholders (Day 3 afternoon)\nPakistan case study: three problem statements across data, interaction, and anticipatory action",
+    "text": "Event Overview\nThe 22–24 June 2026 event at the London School of Economic (LSE) combines a policy workshop and a two-day hackathon. Click any row for details.\n\n\n\nDay\nFormat\nAudience\nFocus\n\n\n\n\nDay 1 — 22 June\nPolicy Workshop\nSenior policy, FCDO, IOM, NGOs + hackathon participants\nIndonesia & Colombia SitRep presentations; structured feedback; methods clinic; data walkthrough\n\n\nDays 2–3 — 23–24 June\nHackathon\nTechnical teams + returning policy stakeholders (Day 3 afternoon)\nPakistan case study: three problem statements across data, interaction, and anticipatory action",
     "crumbs": [
       "Welcome"
     ]
@@ -305,7 +305,7 @@
     "href": "index.html#case-studies-at-a-glance",
     "title": "FloodTraces",
     "section": "Case Studies at a Glance",
-    "text": "Case Studies at a Glance\n\n\n\nCountry\nEvent\nAnalysis Window\nRole\n\n\n\n\nColombia\nChocó floods & beyond\nOct–Nov 2024\nSitRep — presented Day 1\n\n\nIndonesia\nMulti-province flooding\nFeb–Mar 2024\nSitRep — presented Day 1\n\n\nPakistan\nMonsoon floods\nAug–Oct 2022\nHackathon case study\n\n\nIran\nConflict displacement\nFeb–Mar 2026\nExample SitRep — wider methodology",
+    "text": "Case Studies at a Glance\n\n\n\nCountry\nEvent\nAnalysis Window\nRole\n\n\n\n\nIndonesia\nWest Sumatra floods & landslides\nFeb–Mar 2024\nSitRep — presented Day 1\n\n\nColombia\nFloods & conflict\nOct–Nov 2024\nSitRep — presented Day 1\n\n\nPakistan\nMonsoon floods\nAug–Oct 2022\nHackathon case study\n\n\nIran\nConflict displacement\nFeb–Mar 2026\nExample SitRep — wider methodology",
     "crumbs": [
       "Welcome"
     ]
@@ -433,6 +433,61 @@
     "crumbs": [
       "Hackathon Problem Statements",
       "Data"
+    ]
+  },
+  {
+    "objectID": "resources.html#hackathon-environment-ai-tooling",
+    "href": "resources.html#hackathon-environment-ai-tooling",
+    "title": "Resources",
+    "section": "Hackathon environment & AI tooling",
+    "text": "Hackathon environment & AI tooling\n\n\n\n\n\n\nImportant\n\n\n\nExplore the project with Cortex Code (CoCo)\nOur partners at DataOps.live have set up a custom environment for event participants, pre-loaded with the FloodTraces project and a range of sample datasets, with access to their AI coding tool Cortex Code (CoCo). This is being made available specially for the hackathon and goes beyond what standard free-trial accounts allow.\nThere are two ways to use it: a command-line tool and the CoCo desktop application — similar to VS Code, but with an AI coding assistant built in.\n🔗 Explore the FloodTraces hackathon environment →\n\nThis will be introduced on Day 1, after Fawad’s presentation — feel free to start exploring from then.",
+    "crumbs": [
+      "Hackathon Problem Statements",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#mobility-data",
+    "href": "resources.html#mobility-data",
+    "title": "Resources",
+    "section": "",
+    "text": "Using Digital Footprint Data to Measure and Monitor Human Mobility — a hands-on R workshop by Francisco Rowe and colleagues covering Meta–Facebook mobility data: temporal patterns, spatial patterns, and the practicalities of working with the data. The most directly relevant starting point for the hackathon.\nmobility — an R package from the COVID-19 Mobility Data Network for parsing travel data, fitting mobility models via Bayesian inference, and simulating mobility patterns. Useful for teams tackling the See It Coming challenge.",
+    "crumbs": [
+      "Hackathon Problem Statements",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#geographic-data-science-r-python",
+    "href": "resources.html#geographic-data-science-r-python",
+    "title": "Resources",
+    "section": "Geographic Data Science (R & Python)",
+    "text": "Geographic Data Science (R & Python)\n\nA course in Geographic Data Science — the ENVS363/563 module from the GDS Lab, with parallel R and Python labs covering spatial data, mapping vector and raster data, points, spatial weights, ESDA, and clustering. A solid foundation if you need to brush up on core methods.\nAdvanced Geovisualisation — the ENVS456 module (web version), focused on Python-based geovisualisation. Particularly relevant to the Make It Interactive challenge.",
+    "crumbs": [
+      "Hackathon Problem Statements",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#python",
+    "href": "resources.html#python",
+    "title": "Resources",
+    "section": "Python",
+    "text": "Python\n\nMapping and Data Visualization with Python — an intermediate full course by Ujaval Gandhi (Spatial Thoughts) covering Matplotlib, GeoPandas, choropleths, basemaps, XArray, interactive maps with Folium and Leafmap, and building dashboards with Streamlit. All notebooks run in Google Colab — no local setup required.\n\n\n\n\n\n\n\n\nTip\n\n\n\nKnow a good resource? Add it here.\nThis page is community-maintained. If you have a tutorial, package, or course that would help other teams, please contribute it: fork the repository, add your resource to this page, and open a pull request. We’ll review and merge useful additions.",
+    "crumbs": [
+      "Hackathon Problem Statements",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#cortex-code-coco-ai-tooling",
+    "href": "resources.html#cortex-code-coco-ai-tooling",
+    "title": "Resources",
+    "section": "Cortex Code (CoCo) AI tooling",
+    "text": "Cortex Code (CoCo) AI tooling\nExplore the project with Cortex Code (CoCo)\n\nOur partners at Snowflake have set up a custom environment for event participants, giving access to their AI coding tool Cortex Code (CoCo). Note that the FloodTraces datasets are not hosted here — this environment provides the CoCo tool itself. It is being made available specially for the hackathon and goes beyond what standard free-trial accounts allow\nThere are two ways to use it: a command-line tool and the CoCo desktop application — similar to VS Code, but with an AI coding assistant built in.\n🔗 Explore the FloodTraces hackathon environment →\n\nThis will be introduced on Day 1, after Fawad’s presentation — feel free to start exploring from then.",
+    "crumbs": [
+      "Hackathon Problem Statements",
+      "Resources"
     ]
   }
 ]

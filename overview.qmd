@@ -21,15 +21,15 @@ As a proof of concept, the pipeline is applied to three flood events:
 
 | Country | Event | Analysis Window |
 |------------------------|------------------------|------------------------|
-| **Colombia** | Chocó and north-western corridor floods | October–November 2024 |
-| **Indonesia** | Multi-province flooding | February–March 2024 |
+| **Indonesia** | West Sumatra floods & landslides | February–March 2024 |
+| **Colombia** | Floods & conflict (flood signal hard to isolate) | October–November 2024 |
 | **Pakistan** | Seasonal monsoon floods | *2022 event; historical analysis* |
 
-Each case study produces a **Digital Traces Situation Report (SitRep)** — a concise, policy-oriented document showing displacement estimates derived from the GPS pipeline, key validation against OCHA and IOM benchmarks, and a brief summary of data limitations. The Colombia and Indonesia SitReps are presented at the Day 1 policy workshop; the Pakistan case forms the basis for the hackathon.
+Each case study produces a **Digital Traces Situation Report (SitRep)** — a concise, policy-oriented document showing displacement estimates derived from the GPS pipeline, key validation against OCHA and IOM benchmarks, and a brief summary of data limitations. The Indonesia and Colombia SitReps are presented at the Day 1 policy workshop; the Pakistan case forms the basis for the hackathon.
 
 ## Partners {.unnumbered}
 
 This work is led by the [Geographic Data Science Lab](https://www.liverpool.ac.uk/geographic-data-science/) at the University of Liverpool, and supported by [Imago: Data Service for Imagery](https://imago.ac.uk/) conducted in close partnership with:
 
--   **FCDO** (Foreign, Commonwealth & Development Office) — primary funder and policy partner
+-   **FCDO** (Foreign, Commonwealth & Development Office) — policy partner and advisory role, including the [Humanitarian and Stabilisation Operations Team (HSOT)](https://www.linkedin.com/company/humanitarian-and-stabilisation-operations-team/posts/?feedView=all). FCDO is not a funder of this work.
 -   **IOM Displacement Tracking Matrix (DTM)** — operational data partner and validation benchmark
