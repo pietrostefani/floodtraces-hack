@@ -212,7 +212,7 @@
     "href": "researchareas.html#indonesia-sitrep",
     "title": "Digital Traces SitReps",
     "section": "",
-    "text": "Warning\n\n\n\nDraft — not published or finished\nThe current Indonesia SitRep is a work-in-progress draft. It has not been published or finalised, and the figures and analysis are subject to change. Please do not cite or circulate.\n📄 Download the draft Indonesia SitRep (PDF)",
+    "text": "Warning\n\n\n\nDraft — Work in Progress\nThe current Indonesia SitRep is a work-in-progress draft. It has not been finalised, and the figures and analysis are subject to change. Please do not cite or circulate.\n📄 Download the draft Indonesia SitRep (PDF)",
     "crumbs": [
       "Workshop",
       "Digital Traces SitReps"
@@ -495,7 +495,7 @@
     "href": "researchareas.html#colombia-sitrep",
     "title": "Digital Traces SitReps",
     "section": "Colombia SitRep",
-    "text": "Colombia SitRep\nEvent: Chocó and north-easter floods, November 2024\nAnalysis window: October–November 2024\nValidation benchmark: OCHA reported displaced population (~28,500 people)\nThe Colombia SitRep applies a difference-in-differences analytical design using GPS mobility data. Treated units are admin2 areas within the flood-affected north-easter corridor; control units are comparable unflooded admin2 areas elsewhere in Colombia. Displacement is defined as an absence from the home location of three or more consecutive days, with sensitivity checks.\nKey confounder events within the analysis window — including public holidays, agricultural cycles, and major population movements — are accounted for.\n📄 Download link to follow — Colombia SitRep (PDF) (coming soon).\nThe Colombia SitRep will be presented on Day 1 of the policy workshop.",
+    "text": "Colombia SitRep\nEvent: Chocó and north-easter floods, November 2024\nAnalysis window: October–November 2024\nValidation benchmark: OCHA reported displaced population (~28,500 people)\nThe Colombia SitRep applies a difference-in-differences analytical design using GPS mobility data. Treated units are admin2 areas within the flood-affected north-easter corridor; control units are comparable unflooded admin2 areas elsewhere in Colombia. Displacement is defined as an absence from the home location of three or more consecutive days, with sensitivity checks.\nKey confounder events within the analysis window — including public holidays, agricultural cycles, and major population movements — are accounted for.\n\n\n\n\n\n\nWarning\n\n\n\nDraft — Work in Progress\nThe current Indonesia SitRep is a work-in-progress draft. It has not been finalised, and the figures and analysis are subject to change. Please do not cite or circulate.\n📄 Download the draft Indonesia SitRep (PDF)\n\n\nThe Colombia SitRep will be presented on Day 1 of the policy workshop.",
     "crumbs": [
       "Workshop",
       "Digital Traces SitReps"
