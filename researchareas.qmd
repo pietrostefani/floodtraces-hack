@@ -78,3 +78,25 @@ Each Digital Traces SitRep follows a common structure:
 **A note on benchmarks**\
 SitRep validation is always conducted against **displaced** figures reported by OCHA, IOM or alternative Digital Trace derived estimates — not the broader "affected" population count, which includes people whose property or livelihoods were impacted without displacement. These figures differ substantially and the distinction is analytically critical.
 :::
+
+------------------------------------------------------------------------
+
+## Data Factsheets {.unnumbered}
+
+Alongside the SitReps, **FloodTraces** produces **Data Factsheets** — short reference documents that explain the non-traditional, digital trace data sources behind the displacement estimates. They are written for policy and operational audiences who may be unfamiliar with these data, setting out what each indicator measures, how it is accessed, and its main limitations.
+
+The first factsheet covers the digital trace indicators used across the SitReps, grouped into:
+
+-   **Mobility indicators** — GPS / mobile-device data, web and search activity, and Meta Data for Good population and movement
+-   **Contextual indicators** — earth observation layers for population (WorldPop), rainfall (NASA GPM IMERG) and flood extent (NASA LANCE / MODIS)
+
+It complements the **Data sources** and **Limitations** rows of each SitRep, giving a fuller account of provenance, access — including cost and availability — and how the indicators should be interpreted.
+
+::: callout-warning
+**Draft — not published or finished**\
+The Digital Trace Data Factsheet is a **work-in-progress draft**. Descriptions and figures are subject to change. Please do not cite or circulate.
+
+📄 [Download the draft Digital Trace Data Factsheet (PDF)](https://github.com/pietrostefani/floodtraces-hack/blob/main/dtd_factsheet/factsheet_digital_trace_data.pdf)
+:::
+
+*The Data Factsheet will be presented on Day 1 of the policy workshop.*
