@@ -14,6 +14,23 @@ These resources deal directly with the kind of digital trace and mobility data u
 
 ------------------------------------------------------------------------
 
+## Cortex Code (CoCo) AI tooling {.unnumbered}
+
+**Explore the project with Cortex Code (CoCo)**\
+
+Our partners at Snowflake have set up a custom environment for event participants, giving access to their AI coding tool Cortex Code (CoCo). Note that the FloodTraces datasets are not hosted here — this environment provides the CoCo tool itself. It is being made available specially for the hackathon and goes beyond what standard free-trial accounts allow
+
+There are two ways to use it: a **command-line tool** and the **CoCo desktop application** — similar to VS Code, but with an AI coding assistant built in.
+
+🔗 [**Explore the FloodTraces hackathon environment →**](https://go.dataops.live/flood-traces-hackathon-2026)
+
+<img src="img/Snowflake_Logo.svg.png" width="140" alt="Snowflake logo" style="margin-top: 0.5rem;"/>
+
+*This will be introduced on **Day 1**, after Fawad's presentation — feel free to start exploring from then.*
+
+
+------------------------------------------------------------------------
+
 ## Geographic Data Science (R & Python) {.unnumbered}
 
 -   [**A course in Geographic Data Science**](https://gdsl-ul.github.io/gds/) — the ENVS363/563 module from the GDS Lab, with parallel **R and Python** labs covering spatial data, mapping vector and raster data, points, spatial weights, ESDA, and clustering. A solid foundation if you need to brush up on core methods.
