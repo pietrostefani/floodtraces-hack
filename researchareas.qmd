@@ -22,8 +22,8 @@ The Indonesia SitRep applies a **difference-in-differences analytical design** u
 Displacement is tracked at a daily resolution, producing a sequence of maps that show how the signal builds, peaks, and recedes over the event window — allowing the GPS-derived estimates to be read against the tempo of the disaster rather than as a single static figure.
 
 ::: callout-warning
-**Draft — not published or finished**\
-The current Indonesia SitRep is a **work-in-progress draft**. It has **not been published or finalised**, and the figures and analysis are subject to change. Please do not cite or circulate.
+**Draft — Work in Progress**\
+The current Indonesia SitRep is a **work-in-progress draft**. It has **not been finalised**, and the figures and analysis are subject to change. Please do not cite or circulate.
 
 📄 [Download the draft Indonesia SitRep (PDF)](https://github.com/pietrostefani/floodtraces-hack/blob/main/sit_reps/sit_rep_indonesia_march2024.pdf)
 :::
@@ -42,7 +42,12 @@ The Colombia SitRep applies a **difference-in-differences analytical design** us
 
 Key confounder events within the analysis window — including public holidays, agricultural cycles, and major population movements — are accounted for.
 
-📄 *Download link to follow — [Colombia SitRep (PDF)]() (coming soon).*
+::: callout-warning
+**Draft — Work in Progress**\
+The current Indonesia SitRep is a **work-in-progress draft**. It has **not been finalised**, and the figures and analysis are subject to change. Please do not cite or circulate.
+
+📄 [Download the draft Indonesia SitRep (PDF)](https://github.com/pietrostefani/floodtraces-hack/blob/main/sit_reps/sit_rep_colombia_nov2024.pdf)
+:::
 
 *The Colombia SitRep will be presented on Day 1 of the policy workshop.*
 
