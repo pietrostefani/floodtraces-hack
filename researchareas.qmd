@@ -25,7 +25,7 @@ Displacement is tracked at a daily resolution, producing a sequence of maps that
 **Draft — not published or finished**\
 The current Indonesia SitRep is a **work-in-progress draft**. It has **not been published or finalised**, and the figures and analysis are subject to change. Please do not cite or circulate.
 
-📄 [Download the draft Indonesia SitRep (PDF)](https://github.com/pietrostefani/floodtraces-hack/blob/main/sit_reps/sit_rep_indonesia_march204.pdf)
+📄 [Download the draft Indonesia SitRep (PDF)](https://github.com/pietrostefani/floodtraces-hack/blob/main/sit_reps/sit_rep_indonesia_march2024.pdf)
 :::
 
 *The Indonesia SitRep will be presented on Day 1 of the policy workshop.*
