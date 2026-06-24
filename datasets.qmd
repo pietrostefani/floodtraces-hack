@@ -7,7 +7,7 @@ The human mobility datasets provided for the Hackathon fall into one of two cate
 +----------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+----------------+-----------------------------------------------------------+
 | **Data**                                           | **Provider** | **Spatial Detail** | **Source**                  | **Access**                                                 | **Processing** | **Stability**                                             |
 +----------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+----------------+-----------------------------------------------------------+
-| **Facebook Population and Movement During Crisis** | Meta         | 800m tiles         | Meta apps (mainly Facebook) | Free to researchers                                        | Computational  | Made available after a disaster event for 90 days         |
+| **Facebook Population and Movement During Crisis** | Meta         | Tiles              | Meta apps (mainly Facebook) | Free to researchers                                        | Computational  | Made available after a disaster event for 90 days         |
 |                                                    |              |                    |                             |                                                            |                |                                                           |
 |                                                    |              | Global admin 2     |                             |                                                            |                |                                                           |
 +----------------------------------------------------+--------------+--------------------+-----------------------------+------------------------------------------------------------+----------------+-----------------------------------------------------------+
@@ -48,9 +48,9 @@ All the data mentioned in this document is accessible via [**Zenodo**](https://z
 
     -   Movement – these are population flow data, showing the origin and destination of users between temporal points. Users’ origin and destination are chosen according to where they spent most time within each 8-hour window. For example, data recorded at 16:00 shows the flow between areas from 08:00 to 16:00. Where there are fewer than 10 observations for a flow, data are removed. The Pakistan data available for the Movement data are only at the 08:00 and 16:00 time periods, but not for the 00:00 period.
 
--   The data are at two geographic scales: 800m tiles (known as quadkeys, based on the [Bing Maps tile system](https://learn.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system)) and aggregated to global administrative ([GADM](https://gadm.org/data.html)) level 2 geographies.
+-   The data are at two geographic scales: tiles (known as quadkeys, based on the [Bing Maps tile system](https://learn.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system)) and aggregated to global administrative ([GADM](https://gadm.org/data.html)) level 2 geographies.
 
--   The data are generally comprehensive, but there are some gaps. For example, as stated above, in both the tiled and aggregated Movement data, only the 08:00 and 16:00 time stamps are available, with the 00:00 period missing. Additionally, the aggregated Population data for 20, 21 and 22 August 2022 are missing, and these data are not available at all for the 2025 flood event in and around Karachi, though they are available for the 800m tiles.
+-   The data are generally comprehensive, but there are some gaps. For example, as stated above, in both the tiled and aggregated Movement data, only the 08:00 and 16:00 time stamps are available, with the 00:00 period missing. Additionally, the aggregated Population data for 20, 21 and 22 August 2022 are missing, and these data are not available at all for the 2025 flood event in and around Karachi, though they are available for the tiles.
 
 -   Both datasets contain data from a baseline period before the disaster event to compare users’ stock or flow during the crisis. The raw and percentage differences are provided within the dataset, along with a z-score to assess the statistical significance of the change from the pre-crisis baseline to the crisis period.
 
@@ -132,7 +132,7 @@ All the data mentioned in this document is accessible via [**Zenodo**](https://z
 
     -   Spatial polygons used by OCHA for subnational boundaries of Pakistan. Data is shapefiles for provinces (adm1), districts (adm2) and tehsils (adm3), sourced from [OCHA](https://data.humdata.org/dataset/cod-ab-pak). These boundaries can be joined to the spatial variable codes in the IOM CNI data for provinces and districts, as well as the population and deprivation data aggregated to OCHA administrative level 1 and 2, and to the WFP climate data.
 
-    -   Spatial polygons for the 800m tiles (also known as quadkeys) found in the Facebook Population and Movement tile data. These were created from the tile datasets using the R package [quadkeyr](https://docs.ropensci.org/quadkeyr/articles/quadkey_to_sf_conversion.html).
+    -   Spatial polygons for the tiles (also known as quadkeys) found in the Facebook Population and Movement tile data. These were created from the tile datasets using the R package [quadkeyr](https://docs.ropensci.org/quadkeyr/articles/quadkey_to_sf_conversion.html).
 
 -   The below table provides an overview of the variables in each dataset and which boundary they relate to:
 
@@ -143,15 +143,15 @@ All the data mentioned in this document is accessible via [**Zenodo**](https://z
 +------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
 | Facebook Population (aggregated)                                             | polygon_id                                 | GADM level 2 Polygon    | Global administrative level 2 polygons (**GID_2**)          |
 +------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| Facebook Population (tiled)                                                  | quadkey                                    | 800m tile               | Quadkey polygons (**quadkey**)                              |
+| Facebook Population (tiled)                                                  | quadkey                                    | Tile                    | Quadkey polygons (**quadkey**)                              |
 +------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
 | Facebook Movement (aggregated)                                               | start_polygon_id                           | Origin polygon          | Global administrative level 2 polygons (**GID_2**)          |
 |                                                                              |                                            |                         |                                                             |
 |                                                                              | end_polygon_id                             | Destination polygon     |                                                             |
 +------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
-| Facebook Movement (tiled)                                                    | start_quadkey                              | Origin 800m tile        | Quadkey polygons (**quadkey**)                              |
+| Facebook Movement (tiled)                                                    | start_quadkey                              | Origin tile             | Quadkey polygons (**quadkey**)                              |
 |                                                                              |                                            |                         |                                                             |
-|                                                                              | end_quadkey                                | Destination 880m tile   |                                                             |
+|                                                                              | end_quadkey                                | Destination tile        |                                                             |
 +------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
 | **IOM Data**                                                                 |                                            |                         |                                                             |
 +------------------------------------------------------------------------------+--------------------------------------------+-------------------------+-------------------------------------------------------------+
